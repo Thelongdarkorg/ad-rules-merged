@@ -1,9 +1,11 @@
 [Adblock Plus 2.0]
 ! ============================================================
 ! Title: Merged Ad Rules (自动合并去重)
+! 浮风拦截规则
+! 反馈加QQ:1584574988
 ! Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
 ! Expires: 12 hours
-! Generated: 2026-08-19 09:03:22 UTC
+! Generated: 2026-08-19 09:22:17 UTC
 ! Total rules: 18726
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
