@@ -127,6 +127,8 @@ def main() -> int:
         "[Adblock Plus 2.0]\n"
         "! ============================================================\n"
         "! Title: Merged Ad Rules (自动合并去重)\n"
+        "! 浮风拦截规则\n"
+        "! 反馈加QQ:1584574988\n"
         f"! Homepage: {homepage}\n"
         "! Expires: 12 hours\n"
         f"! Generated: {now}\n"
