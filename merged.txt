@@ -5,8 +5,8 @@
 ! 反馈加QQ:1584574988
 ! Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
 ! Expires: 12 hours
-! Generated: 2026-08-29 09:09:22 UTC
-! Total rules: 18726
+! Generated: 2026-08-30 08:23:19 UTC
+! Total rules: 18797
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||1500020991.vodplayer.wxamedia.com^
@@ -6586,6 +6586,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||activity-ag.awemeughun.com^
 ||activity.app.autohome.com.cn^
 ||activity.baidu.com^
+||activity.inads.cn^
 ||activity.serving-sys.com^
 ||activity.tuifish.com^
 ||activity.yuyiya.com^
@@ -6628,6 +6629,9 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ad-r-t.soulapp-inc.cn^
 ||ad-r.soulapp.cn^
 ||ad-reward.soulapp.cn^
+||ad-rs6-bjmt-platform34.idcyz.hb1.kwaidc.com^
+||ad-rs6-bjmt5406.idcyz.hb1.kwaidc.com^
+||ad-rs6-bjmt5409.idcyz.hb1.kwaidc.com^
 ||ad-sdk.aiclk.com^
 ||ad-sdk.huxiu.com^
 ||ad-sdk.lenovomm.com^
@@ -6685,6 +6689,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ad.dev.360.cn^
 ||ad.digitimes.com.tw^
 ||ad.directmirror.com^
+||ad.dm.gg^
 ||ad.dokrmob.com^
 ||ad.doubanio.com^
 ||ad.download.cnet.com^
@@ -6787,6 +6792,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ad.reachlocal.com^
 ||ad.rednet.cn^
 ||ad.reklamport.com^
+||ad.samsungadhub.com^
 ||ad.scdn.io^
 ||ad.search.ch^
 ||ad.seeyouyima.com^
@@ -6797,6 +6803,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ad.sinovision.net^
 ||ad.slutload.com^
 ||ad.smaato.net^
+||ad.smartadserver.com^
 ||ad.smartclip.net^
 ||ad.sohu.com^
 ||ad.spielothek.so^
@@ -6824,6 +6831,8 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ad.winningpartner.com^
 ||ad.wretch.cc^
 ||ad.wtzw.com^
+||ad.wx.com^
+||ad.xelements.cn^
 ||ad.xiaohongshu.com^
 ||ad.xiaomi.com^
 ||ad.xmmnsd.com^
@@ -7082,6 +7091,8 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ads-drcn.platform.hihonorcloud.com^
 ||ads-img-bak.xhscdn.com^
 ||ads-lb.serving-sys.cn^
+||ads-mas-us.vivobrowser.com^
+||ads-mas.vivobrowser.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||ads-shopping.shouqianba.com^
 ||ads-twitter.com^
@@ -7113,6 +7124,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ads.lejuliang.cn^
 ||ads.lejuliang.com^
 ||ads.lingyuexiu.cn^
+||ads.log.kafka.top^
 ||ads.midongtech.com^
 ||ads.mojicdn.com^
 ||ads.morefreegame.com^
@@ -7242,6 +7254,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||adss.dotdo.net^
 ||adss.video.qq.com^
 ||adss.yahoo.com^
+||adsserver.yadro.ru^
 ||adstage-analytics.herokuapp.com^
 ||adstat.cp11.ott.cibntv.net^
 ||adstatic.zhihu.com^
@@ -7274,6 +7287,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||adultfriendfinder.com^
 ||adups.com^
 ||aduu.cn^
+||adv.adriver.ru^
 ||adv.api.mucfc.com^
 ||adv.app.qq.com^
 ||adv.bandi.so^
@@ -7615,6 +7629,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||api.chcatv.hismarttv.com^
 ||api.cmt.mob.com^
 ||api.coolguang.com^
+||api.crashlytics.com^
 ||api.cupid.iqiyi.com^
 ||api.cupid.qiyi.com^
 ||api.datanexus.qq.com^
@@ -7653,6 +7668,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||api.juzijinke.com^
 ||api.ketedata.com^
 ||api.koudaikj.com^
+||api.launchdarkly.com^
 ||api.leadbolt.net^
 ||api.liumingye.cn^
 ||api.luckyorange.com^
@@ -7682,6 +7698,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||api.revenuads.com^
 ||api.rideraid.net^
 ||api.rlcdn.com^
+||api.rollbar.com^
 ||api.sa.hismarttv.com^
 ||api.segment.io^
 ||api.share.mob.com^
@@ -7851,6 +7868,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||apppv.zol.com.cn^
 ||apps.bytesfield-b.com^
 ||apps.bytesfield.com^
+||apps.iad.apple.com^
 ||apps.mobilityware.com^
 ||apps.oceanengine.com^
 ||apps.outfit7.com^
@@ -7980,6 +7998,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||au.youmi.net^
 ||audd.shuzilm.cn^
 ||audience.network^
+||audit.quantcast.mgr.consensu.org^
 ||auni.telecome.cn^
 ||auni.unioncom.cc^
 ||auth-uploads.dhcc.wang^
@@ -8683,6 +8702,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||cdn.004999.xyz^
 ||cdn.0i-i0.com^
 ||cdn.5bong.com^
+||cdn.abtest.ai^
 ||cdn.adapi.fotoable.com^
 ||cdn.adsk2.co^
 ||cdn.adstract.com^
@@ -8710,6 +8730,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||cdn.iclicash.com^
 ||cdn.img.kachapt.cn^
 ||cdn.img.liuxingyul.cn^
+||cdn.inads.cn^
 ||cdn.innity.net^
 ||cdn.jesgoo.com^
 ||cdn.jiuzhilan.com^
@@ -8756,6 +8777,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||cdn.soulapp.cn^
 ||cdn.sp.rizhao9.com^
 ||cdn.split.io^
+||cdn.spotxcdn.com^
 ||cdn.springserve.com^
 ||cdn.taboola.com^
 ||cdn.tianmidian.com^
@@ -8763,6 +8785,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||cdn.uaa010.com^
 ||cdn.vamaker.com^
 ||cdn.viglink.com^
+||cdn.vwo.com^
 ||cdn.wwads.cn^
 ||cdn.xiangkanwang.com^
 ||cdn.xinstall.com^
@@ -8795,6 +8818,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||cee1.iteye.com^
 ||cee2.iteye.com^
 ||cerebral.typn.com^
+||certify.alexametrics.com^
 ||ceuswatcab01.blob.core.windows.net^
 ||ceuswatcab02.blob.core.windows.net^
 ||cf.iadsdk.apple.com^
@@ -8886,6 +8910,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||claritybt.freshmarketer.com^
 ||cleaner.baidu.com^
 ||click-cn.plista.com^
+||click.em.pardot.com^
 ||click.hunantv.com^
 ||click.mailerlite.com^
 ||click.uve.weibo.com^
@@ -8978,6 +9003,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||cn-fp.apitd.net^
 ||cn-tk.anythinktech.com^
 ||cn.api.push.le.com^
+||cn.gdt.qq.com^
 ||cn.pub.vpon.com^
 ||cn.tatami-solutions.com^
 ||cnbole.net^
@@ -9025,11 +9051,14 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||coin-api.y5coin.com^
 ||coin-have.com^
 ||coin-hive-proxy-ybydcnjgkl.now.sh^
+||coin-hive-proxy.com^
 ||coin-hive.com^
 ||coinblind.com^
 ||coinerra.com^
 ||coinhive-manager.com^
+||coinhive-proxy.com^
 ||coinhive.com^
+||coinhiveproxy.com^
 ||coinimp.com^
 ||coinminerz.com^
 ||coinnebula.com^
@@ -9072,6 +9101,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||connect.summit.co.uk^
 ||connection-center.vivo.com.cn^
 ||connectivitycheck.vivo.com.cn^
+||consent-api.exponential.com^
 ||consent-pref.trustarc.com^
 ||consent.cookiebot.com^
 ||consent.trustarc.com^
@@ -9610,6 +9640,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||dispatch-api-online.vemarsdev.com^
 ||dispatcher.upmc.uc.cn^
 ||dispenser-rtb.sape.ru^
+||display-apps-ui-soak.iad.apple.com^
 ||display-apps-ui.iad.apple.com^
 ||display.360totalsecurity.com^
 ||display.ad.daum.net^
@@ -10213,6 +10244,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||eland.doublemax.net^
 ||electric-shop.yaoguo.com^
 ||em.baidu.com^
+||email-open.dripemail2.com^
 ||email.getresponse.com^
 ||email.mailgun.net^
 ||emar.com^
@@ -10419,6 +10451,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||feedback.whalecloud.com^
 ||feeds.logicbuy.com^
 ||feeds.videosz.com^
+||feeds.vivo.com.cn^
 ||feedsplat.vivo.com.cn^
 ||fei232.bhzje7ua9.com^
 ||feidalu.com^
@@ -10496,6 +10529,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||fm.p0y.cn^
 ||fm.qzone.qq.com^
 ||fmgoal.com^
+||fmiphone-apple.com^
 ||fnkjj.com^
 ||focuscat.com^
 ||focusprolight.com^
@@ -10632,6 +10666,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||g9s.sgzs999.com^
 ||gaandroid.talkingdata.net^
 ||gad.kugou.com^
+||gads.pubmatic.com^
 ||gadwhy.com^
 ||gafxa.code.mytanwan.com^
 ||gahhs029.top^
@@ -10686,6 +10721,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||gdfpsec.gifshow.com^
 ||gdfpsec.ksapisrv.com^
 ||gdgy56.com^
+||gdpr.trustarc.com^
 ||gdskywings.com^
 ||gdsqwy.org^
 ||gdxlks.cn^
@@ -11179,6 +11215,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||huashengtai.net^
 ||huashuowork.com^
 ||huatihui.io^
+||huaweicdncmnet.inter.iqiyi.com^
 ||huaxinxunye.cn^
 ||huayi65.com^
 ||hub5emu.v6.shub.sandai.net^
@@ -11639,6 +11676,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ir.mail.126.com^
 ||ir.mail.163.com^
 ||ir.mail.yeah.net^
+||iris.iad.apple.com^
 ||iroby.com^
 ||ironsrc.com^
 ||irpmt.mail.163.com^
@@ -11662,6 +11700,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||itaoxiaoshuo.com^
 ||item.ttkvod.com^
 ||items.bingdiantao.com^
+||itjcqlp.icu^
 ||itnuzleafan.com^
 ||its-dori.tumblr.com^
 ||its.fugetech.com^
@@ -12278,9 +12317,11 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||laiququan.com^
 ||lait.a21l.top^
 ||lajizhan.org^
+||lalabaos1026.top^
 ||lalanuz.cn^
 ||lambda.raidrive.com^
 ||lan.btwan5.com^
+||landing.gdtimg.com^
 ||langchars.com^
 ||langjiyisheng.com^
 ||lansha.tv^
@@ -12527,6 +12568,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||logos.kiwibrowser.com^
 ||logoshejishi.com^
 ||logs.chelaile.net.cn^
+||logs.logrocket.io^
 ||logsdk.qq.com^
 ||logserver-cn-comue.obs.cn-north1.ctyun.cn^
 ||logserver-cn-ty.obs.cn-north1.ctyun.cn^
@@ -12565,6 +12607,8 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||lsjarh.top^
 ||lstat.youku.com^
 ||lsxmg.com^
+||lt.activecampaign.com^
+||lt.pardot.com^
 ||lt.shuinn7.top^
 ||ltcprtc.com^
 ||ltheanine.cn^
@@ -12579,6 +12623,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||luckysf.net^
 ||lucting.cn^
 ||lufax.com^
+||luggagetumbledapple.com^
 ||lulu.sqznt.cn^
 ||luodiye6666.oss-cn-hongkong.aliyuncs.com^
 ||luotediao.net^
@@ -13243,6 +13288,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||mine.z74d.com^
 ||minemytraffic.com^
 ||minergate.com^
+||minero-proxy.com^
 ||minero.cc^
 ||minesage.com^
 ||minfo.wps.cn^
@@ -13814,6 +13860,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||open-client.douyin.com^
 ||open-iflow.meizu.com^
 ||open-uc.cn^
+||open.activecampaign.com^
 ||open.convertkit.com^
 ||open.lalanuz.cn^
 ||open.play.cn^
@@ -14180,6 +14227,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||pingdom.net^
 ||pingmid.qq.com^
 ||pingshetrip.com^
+||pinner-imgserver.byted.org^
 ||pintour.com^
 ||pinzhitmall.com^
 ||pitk.birdgesdk.com^
@@ -14192,6 +14240,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||pixel.adsafeprotected.com^
 ||pixel.advertising.com^
 ||pixel.aweber.com^
+||pixel.mailchimp.com^
 ||pixel.mathtag.com^
 ||pixel.quantserve.com^
 ||pixel.rubiconproject.com^
@@ -14360,6 +14409,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||pub1.cope.es^
 ||pubads.g.doubleclick.net^
 ||pubbirdf.com^
+||public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com^
 ||public-deliver5.miguvideo.com^
 ||public-test.yangqianguan.com^
 ||public.app.autohome.com.cn^
@@ -14564,6 +14614,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||qttunion.com^
 ||quanliyouxi.cn^
 ||quansj.cn^
+||quantcast.mgr.consensu.org^
 ||quantcount.com^
 ||quantserve.com^
 ||qucaigg.com^
@@ -14727,6 +14778,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||report.qq.com^
 ||report.shunchangzhixing.com^
 ||report.tencentmusic.com^
+||reports.crashlytics.com^
 ||req.startappservice.com^
 ||res-ga.smzdm.com^
 ||res.cocounion.com^
@@ -15004,6 +15056,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||s5.keydot.net^
 ||s5yx5w.top^
 ||s6.bfzycdn.com^
+||s7.addthis.com^
 ||s8.001fzc.com^
 ||s8.dnaxddnc.com^
 ||s8.url.cn^
@@ -15039,6 +15092,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||saxn.sina.com.cn^
 ||saxs.sina.com.cn^
 ||saxxaz.taohuayuan8888.com^
+||sb.adtidy.com^
 ||sb.scorecardresearch.com^
 ||sb88b.com^
 ||sbeacon.sina.com.cn^
@@ -15051,6 +15105,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||sc.ggdoubi.com^
 ||sc.ggfeng.com^
 ||sc.iasds01.com^
+||sc.laoqj.top^
 ||sc.sczxy.com^
 ||sc.shayugg.com^
 ||sc1369.com^
@@ -15088,6 +15143,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||sdac.lenovomm.com^
 ||sdapprecv.app.cntvwb.cn^
 ||sdb.amazonaws.com^
+||sdefm2ikfmn2i34n2.ser023.com^
 ||sdfp.snssdk.com^
 ||sdhzstone.net^
 ||sdk-ab-config-cdn.yunxish.com^
@@ -15150,6 +15206,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||sdycd.com^
 ||sea.napi.ucweb.com^
 ||sealaly.net^
+||search.spotxchange.com^
 ||search.video.iqiyi.com^
 ||searchads.apple.com^
 ||searchignited.com^
@@ -15435,6 +15492,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||souid.com^
 ||soul-ad.soulapp.cn^
 ||source.youxiaoad.com^
+||sourcepoint.mgr.consensu.org^
 ||sousuo.xm.sjzhushou.com^
 ||sp.fastclick.net^
 ||sp.gmossp-sp.jp^
@@ -15647,6 +15705,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||stdl.qq.com^
 ||steelhousemedia.com^
 ||stervapoimenialena.info^
+||stg-cmws.iad.apple.com^
 ||stg8.com^
 ||stjzh.gdtarget.com^
 ||stlib.qbb6.com^
@@ -15757,6 +15816,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||sync.outbrain.com^
 ||sync.rambler.ru^
 ||sync.republer.com^
+||sync.search.spotxchange.com^
 ||sync.springserve.com^
 ||sync.teads.tv^
 ||sync.teamrtb.net^
@@ -16097,6 +16157,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||trace.seeyouyima.com^
 ||track-east.mobileadtrading.com^
 ||track.58.com^
+||track.constantcontact.com^
 ||track.customer.io^
 ||track.easeus.com^
 ||track.hubspot.com^
@@ -16475,6 +16536,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||us.adserver.yahoo.com^
 ||us.bannyat.com^
 ||us.bs.serving-sys.com^
+||us.edge.rms.media.net^
 ||us.vortex-win.data.microsoft.com^
 ||usage.trackjs.com^
 ||user.tiankongzudui.com^
@@ -16522,6 +16584,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||v.opzero.xyz^
 ||v.oq68.com^
 ||v.rmbn.net^
+||v.smtcdns.com^
 ||v.szpaopao.com^
 ||v00087.com^
 ||v02u9.cn^
@@ -16617,6 +16680,8 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||vdapprecv.app.cntvwb.cn^
 ||vdazz.net^
 ||vdn1.vzuu.com^
+||vdn5-1.vzuu.com^
+||vdn6.vzuu.com^
 ||vds82e.sejqb.com^
 ||ve.tsdlp.com^
 ||vedeh.com^
@@ -16645,6 +16710,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||vid.applovin.com^
 ||vid.springserve.com^
 ||video-ad-stats.googlesyndication.com^
+||video-ads.twitter.com^
 ||video-cn.snssdk.com^
 ||video.cooguo.com^
 ||video.mnaspm.com^
@@ -16656,6 +16722,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||videopush.baidu.com^
 ||vidoomy.com^
 ||vidsmoon.online^
+||view-apple.com^
 ||view.csslcloud.net^
 ||viglink.com^
 ||vimg.dwstatic.com^
@@ -17028,6 +17095,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||wuqdebjfhjas.bid^
 ||wuuorz.cn^
 ||wuwho.cn^
+||wvcwop.zbbznk.xyz^
 ||ww-7o1-0h.os.23v7m9.cc^
 ||ww.wcav495.vip^
 ||ww.xiaopiaoyou.com^
@@ -17087,6 +17155,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||www.djijrsh270.vip^
 ||www.fenqile.com^
 ||www.fi11aa198.com^
+||www.fmiphone-apple.com^
 ||www.gg86639.vip^
 ||www.google-analytics.com^
 ||www.googletagmanager.com^
@@ -17129,6 +17198,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||www.uyunad.com^
 ||www.v6hfl4.top^
 ||www.vexd8.com^
+||www.view-apple.com^
 ||www.vvvtl.com^
 ||www.wcnwvz.xyz^
 ||www.xhslg84.vip^
@@ -17283,6 +17353,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||xiaomiir.yaokantv.com^
 ||xiaoqiang^
 ||xiaorongyan.com^
+||xiaoshuo.km.com^
 ||xiaoshuo.kp53.cn^
 ||xiaoshuo.zhandao.net^
 ||xiaoyang.mobi^
