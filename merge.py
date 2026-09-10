@@ -28,7 +28,7 @@ SOURCES = [
     ("banad/jiekouAD",
      "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"),
     ("qq5460168/666/dns",
-     "https://raw.githubusercontent.com/qq5460168/666/master/dns.txt"),
+     "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt"),
 ]
 
 OUTPUT = "merged.txt"
