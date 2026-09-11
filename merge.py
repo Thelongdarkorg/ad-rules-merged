@@ -116,7 +116,9 @@ def main() -> int:
         per_source[name] = added
 
     total = len(blocks) + len(cosmetics) + len(exceptions)
-    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    # 北京时间 UTC+8
+    cst = datetime.timezone(datetime.timedelta(hours=8))
+    now = datetime.datetime.now(datetime.timezone.utc).astimezone(cst).strftime("%Y-%m-%d %H:%M:%S UTC+8")
 
     # CI 环境下自动填入仓库主页
     repo = os.environ.get("GITHUB_REPOSITORY")
