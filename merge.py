@@ -23,11 +23,11 @@ import urllib.request
 # 上游规则源（按需增删即可，脚本会自动同步它们）
 # ---------------------------------------------------------------------------
 SOURCES = [
-    ("AWAvenue-Ads-Rule",
-     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"),
     ("banad/jiekouAD",
      "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"),
-    ("qq5460168/666/dns",
+    ("AWAvenue-Ads-Rule",
+     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"),
+    ("qq5460168/666/rules",
      "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt"),
 ]
 
