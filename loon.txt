@@ -1,7 +1,7 @@
 # ============================================================
 # Loon 规则集（由 ad-rules-merged 从 merged.txt 自动转换生成，勿手改）
 # Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
-# Generated: 2026-09-30 00:38:42 UTC+8
+# Generated: 2026-09-30 16:41:57 UTC+8
 # Total rules: 20392
 # 上游: banad/jiekouAD, AWAvenue-Ads-Rule, qq5460168/666/rules
 # 说明: @@ 例外规则已作为豁免集从本列表中剔除（不输出 DIRECT，避免改变代理策略）
