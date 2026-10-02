@@ -5,8 +5,8 @@
 ! 反馈加QQ:1584574988
 ! Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
 ! Expires: 12 hours
-! Generated: 2026-10-01 17:04:14 UTC+8
-! Total rules: 34138
+! Generated: 2026-10-02 16:38:55 UTC+8
+! Total rules: 34140
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||amusingarmorycomment.com^
@@ -25900,6 +25900,7 @@ ip-cidr, 223.111.27.248/32^
 ||optimix.cn^
 ||optimized-by.rubiconproject.com^
 ||optimizelyapis.com^
+||optimus-ads-*.amap.com^
 ||optimus-ads-ykx.amap.com^
 ||optimus-ads.amap.com.w.alikunlun.com^
 ||oq68.com^
@@ -30084,6 +30085,7 @@ manwa.me#@#.ad-area
 greasyfork.org#@#body .ad
 myqqjd.com##.adsbygoogl
 www.jianshu.com#@#div[class$="_0"]
+bilibili.com#@#[class^="footer-ad"]
 baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 baidu.com#@#div[class*="ads"]
 baidu.com#@##header > div:last-child
