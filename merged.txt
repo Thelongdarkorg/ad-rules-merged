@@ -5,8 +5,8 @@
 ! 反馈加QQ:1584574988
 ! Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
 ! Expires: 12 hours
-! Generated: 2026-10-04 16:31:41 UTC+8
-! Total rules: 34141
+! Generated: 2026-10-05 17:13:54 UTC+8
+! Total rules: 34140
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||amusingarmorycomment.com^
@@ -17253,7 +17253,6 @@ www.itdog.cn#%#window.alert=function(str){return}
 99.84.238.181 image.tmdb.org
 ::1 ip6-localhost
 ip-cidr, 223.111.27.248/32^
-{"message":"429 The number of times the user invokes the API is too large. Threshold: 5K times per user per minute. Limited account:unregisteredUser"}! Description: 反馈群538268498
 ||*-*-*-lrycfv.vip^
 ||*-ad-sign.byteimg.com^
 ||*-ad-union-sdk.pglstatp-toutiao.com^
