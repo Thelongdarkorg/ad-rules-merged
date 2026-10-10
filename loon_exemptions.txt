@@ -1,7 +1,7 @@
 # ============================================================
 # Loon 豁免集 / 白名单（由 merged.txt 中的 @@ 例外规则自动转换生成，勿手改）
 # Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
-# Generated: 2026-10-10 10:50:36 UTC+8
+# Generated: 2026-10-10 16:38:41 UTC+8
 # Total exemptions: 2951
 # 上游: banad/jiekouAD, AWAvenue-Ads-Rule, qq5460168/666/rules
 # 说明:
