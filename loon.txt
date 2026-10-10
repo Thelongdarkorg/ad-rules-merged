@@ -1,10 +1,12 @@
 # ============================================================
 # Loon 规则集（由 ad-rules-merged 从 merged.txt 自动转换生成，勿手改）
 # Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
-# Generated: 2026-10-09 17:15:27 UTC+8
+# Generated: 2026-10-10 10:53:39 UTC+8
 # Total rules: 20392
 # 上游: banad/jiekouAD, AWAvenue-Ads-Rule, qq5460168/666/rules
-# 说明: @@ 例外规则已作为豁免集从本列表中剔除（不输出 DIRECT，避免改变代理策略）
+# 说明:
+#   1) @@ 例外规则已作为豁免集从本列表中剔除（不输出 DIRECT，避免改变代理策略）
+#   2) 豁免集订阅: https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/loon_exemptions.txt
 # ============================================================
 
 # ---------- 域名后缀拦截 ----------
