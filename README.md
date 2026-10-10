@@ -20,9 +20,19 @@ https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/loon.txt
 ```
 
-> 为什么 Loon 订阅走 jsdelivr：`raw.githubusercontent.com` 在部分网络（含中国大陆）拉取不稳定、会静默失败，而 jsdelivr 镜像可达性更好。如需锁定某一版，把 `@main` 换成具体 commit sha 即可。
+### Loon 豁免集 / 白名单（`loon_exemptions.txt`）
 
-两个文件由同一次同步生成，内容同源、同步更新。
+由 `merged.txt` 中的 `@@` 例外规则自动转换而来，策略为 `DIRECT`：
+
+```
+https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/loon_exemptions.txt
+```
+
+> 为什么 Loon 订阅走 jsdelivr：`raw.githubusercontent.com` 在部分网络（含中国大陆）拉取不稳定、会静默失败，而 jsdelivr 镜像可达性更好。如需锁定某一版，把 `@main` 换成具体 commit sha 即可。
+>
+> 说明：`loon.txt` 在生成时已把豁免域名从 REJECT 列表中剔除；如果你**不想改变代理策略**，直接订阅 `loon.txt` 即可，不需要再加 `loon_exemptions.txt`。只有需要显式强制直连放行时才加豁免集。
+
+三个文件由同一次同步生成，内容同源、同步更新。
 
 ---
 
@@ -33,14 +43,14 @@ https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/loon.txt
 | 触发方式 | 说明 |
 |---|---|
 | 每日定时 | 每天 **UTC 02:21** 自动运行一次 |
-| 推送触发 | 修改 `merge.py` / `to_loon.py` 或工作流文件后自动重跑 |
+| 推送触发 | 修改 `merge.py` / `to_loon.py` / `.github/workflows/sync.yml` 后自动重跑 |
 | 手动触发 | 在仓库 **Actions → Sync Merged Ad Rules → Run workflow** 手动执行 |
 
 工作流依次执行：
 
 1. `merge.py` → 拉取上游 → 合并去重 → 生成 `merged.txt`
-2. `to_loon.py` → 读取 `merged.txt` → 转换为 Loon 语法 → 生成 `loon.txt`
-3. 两个文件一起提交，若无变化则跳过 push
+2. `to_loon.py` → 读取 `merged.txt` → 转换为 Loon 语法 → 生成 `loon.txt` 与 `loon_exemptions.txt`
+3. 三个文件一起提交，若无变化则跳过 push
 
 ---
 
@@ -50,6 +60,7 @@ https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/loon.txt
 |---|---|---|---|
 | `merged.txt` | Adblock Plus 2.0 | 约 3.4 万条 | AdGuard Home / AdGuard / uBlock Origin 等 |
 | `loon.txt` | Loon 规则语法 | 约 2.0 万条 | Loon 及兼容其规则语法的工具 |
+| `loon_exemptions.txt` | Loon 规则语法 | 约 0.3 万条 | Loon 豁免集 / 白名单（可选） |
 
 （随上游动态变化，详见各文件头部 `Total rules`；拦截器建议刷新间隔 **12 小时**）
 
@@ -63,7 +74,7 @@ Adblock 语法与 Loon 语法差异较大，转换遵循以下原则，**以不�
 |---|---|---|
 | `\|\|domain^` | → `DOMAIN-SUFFIX,domain,REJECT` | 一对一映射 |
 | `0.0.0.0 domain`（hosts） | → `DOMAIN-SUFFIX,domain,REJECT` | 含 `*` 通配时取后缀匹配 |
-| `@@` 例外规则 | **不输出**，改为「豁免集」 | 从 REJECT 列表里剔除对应域名；若转成 `DIRECT` 会强制直连、改变原有代理策略 |
+| `@@` 例外规则 | 生成 `loon_exemptions.txt` 豁免集 | 从 REJECT 列表里剔除对应域名；同时单独提供一份 `DIRECT` 白名单供有需要的用户订阅 |
 | 带路径规则 `\|\|domain/path` | → `URL-REGEX` | Loon 无路径语法，置文件末尾 |
 | `##` / `#@#` / `#?#` 元素隐藏 | 丢弃 | Loon 不支持 |
 | 带 `$domain=` 等条件修饰语 | 丢弃 | Loon 无条件语法，强行转换会误伤非目标站点 |
@@ -106,6 +117,7 @@ Adblock 语法与 Loon 语法差异较大，转换遵循以下原则，**以不�
 1. Loon → **订阅** → 右上角「+」→ **规则集 / Remote Rule**
 2. 订阅链接填 `loon.txt` 地址（jsdelivr），类型选 **规则（Rule）**
 3. 保存后在需要的位置引用该规则集（策略选 REJECT 已内建于规则本身）
+4. 如需额外放行被误杀的域名，再订阅 `loon_exemptions.txt`（策略 DIRECT），并确保它排在 `loon.txt` **之前**
 
 ### 其他兼容 Adblock Plus 2.0 语法的工具
 凡支持 ABP2.0 订阅格式的工具，均可直接导入 `merged.txt` 地址。
