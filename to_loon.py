@@ -287,24 +287,26 @@ def convert(lines):
         final.append(r)
     stats["豁免剔除"] = dropped_by_exemption
 
-    return final, stats
+    return final, stats, exemptions
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--in", dest="inp", default=DEFAULT_IN)
     ap.add_argument("--out", dest="out", default=DEFAULT_OUT)
+    ap.add_argument("--exemptions-out", dest="exemptions_out", default="loon_exemptions.txt")
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
 
     with open(args.inp, encoding="utf-8", errors="replace") as f:
         lines = f.read().splitlines()
 
-    rules, stats = convert(lines)
+    rules, stats, exemptions = convert(lines)
 
     cst = datetime.timezone(datetime.timedelta(hours=8))
     now = datetime.datetime.now(datetime.timezone.utc).astimezone(cst).strftime("%Y-%m-%d %H:%M:%S UTC+8")
     repo = os.environ.get("GITHUB_REPOSITORY", "Thelongdarkorg/ad-rules-merged")
+    raw_url = f"https://raw.githubusercontent.com/{repo}/main/loon_exemptions.txt"
 
     header = [
         "# ============================================================",
@@ -313,7 +315,9 @@ def main() -> int:
         f"# Generated: {now}",
         f"# Total rules: {len(rules)}",
         "# 上游: banad/jiekouAD, AWAvenue-Ads-Rule, qq5460168/666/rules",
-        "# 说明: @@ 例外规则已作为豁免集从本列表中剔除（不输出 DIRECT，避免改变代理策略）",
+        "# 说明:",
+        "#   1) @@ 例外规则已作为豁免集从本列表中剔除（不输出 DIRECT，避免改变代理策略）",
+        f"#   2) 豁免集订阅: {raw_url}",
         "# ============================================================",
         "",
     ]
@@ -340,16 +344,40 @@ def main() -> int:
 
     content = "\n".join(header + body) + "\n"
 
+    # 生成豁免集（白名单）文件：按域名后缀排序，策略 DIRECT
+    # 注：该文件是 @@ 例外规则的显式表达，供需要「强制直连」豁免的场景订阅；
+    #     若只想保持原代理策略，直接订阅 loon.txt 即可（已剔除豁免域名）。
+    exemption_lines = sorted(f"DOMAIN-SUFFIX,{d},DIRECT" for d in exemptions)
+    exemptions_header = [
+        "# ============================================================",
+        "# Loon 豁免集 / 白名单（由 merged.txt 中的 @@ 例外规则自动转换生成，勿手改）",
+        f"# Homepage: https://github.com/{repo}",
+        f"# Generated: {now}",
+        f"# Total exemptions: {len(exemptions)}",
+        "# 上游: banad/jiekouAD, AWAvenue-Ads-Rule, qq5460168/666/rules",
+        "# 说明:",
+        "#   本文件把 adblock 的 @@ 例外规则显式转成 DOMAIN-SUFFIX...DIRECT，",
+        "#   用于在 Loon 中前置放行特定域名。若不想改变代理策略，直接订阅 loon.txt 即可。",
+        f"# 订阅链接: {raw_url}",
+        "# ============================================================",
+        "",
+    ]
+    exemptions_content = "\n".join(exemptions_header + exemption_lines) + "\n"
+
     print("=== 转换统计 ===")
     for k, v in stats.most_common():
         print(f"  {k}: {v}")
     print(f"\n  >>> 最终 Loon 规则数: {len(rules)}")
     print(f"      域名后缀 {len(suffix)} / IP {len(ipcidr)} / 正则 {len(regex)} / 其他 {len(other)}")
+    print(f"      豁免域名数: {len(exemptions)}")
 
     if not args.check:
         with open(args.out, "w", encoding="utf-8") as f:
             f.write(content)
         print(f"\n已写入 {args.out}")
+        with open(args.exemptions_out, "w", encoding="utf-8") as f:
+            f.write(exemptions_content)
+        print(f"已写入 {args.exemptions_out}")
 
     return 0
 
