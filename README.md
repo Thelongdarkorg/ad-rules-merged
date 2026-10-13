@@ -10,9 +10,19 @@
 
 ### AdGuard / Adblock Plus / uBlock Origin（`merged.txt`）
 
+**GitHub raw（国际线路）：**
+
 ```
 https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ```
+
+**jsdelivr CDN（国内/阿里 ECS 等网络推荐，可达性更好）：**
+
+```
+https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/merged.txt
+```
+
+> 两个地址内容完全一致；如果 `raw.githubusercontent.com` 出现 `connection reset by peer` 或拉取失败，请换用 jsdelivr 地址。
 
 建议刷新间隔：**12 小时**。
 
