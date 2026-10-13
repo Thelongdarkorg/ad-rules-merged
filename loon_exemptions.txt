@@ -1,8 +1,8 @@
 # ============================================================
 # Loon 豁免集 / 白名单（由 merged.txt 中的 @@ 例外规则自动转换生成，勿手改）
 # Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
-# Generated: 2026-10-12 17:24:00 UTC+8
-# Total exemptions: 2951
+# Generated: 2026-10-13 17:01:37 UTC+8
+# Total exemptions: 2950
 # 上游: banad/jiekouAD, AWAvenue-Ads-Rule, qq5460168/666/rules
 # 说明:
 #   本文件把 adblock 的 @@ 例外规则显式转成 DOMAIN-SUFFIX...DIRECT，
@@ -18,7 +18,6 @@ DOMAIN-SUFFIX,1sapp.com,DIRECT
 DOMAIN-SUFFIX,1tian.kuaishou.com,DIRECT
 DOMAIN-SUFFIX,22.do,DIRECT
 DOMAIN-SUFFIX,316.coolapk1s.com,DIRECT
-DOMAIN-SUFFIX,360.cn,DIRECT
 DOMAIN-SUFFIX,360buyimg.com,DIRECT
 DOMAIN-SUFFIX,360kuai.com,DIRECT
 DOMAIN-SUFFIX,3975.com,DIRECT
