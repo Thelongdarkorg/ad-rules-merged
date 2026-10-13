@@ -35,6 +35,12 @@ OUTPUT = "merged.txt"
 
 USER_AGENT = "Mozilla/5.0 (compatible; ad-rule-merge/1.0)"
 
+# 过宽例外规则黑名单：放行整个根域会抵消大量广告拦截规则
+# 格式必须是小写的 AdGuard / Adblock Plus 规则原文
+WIDE_EXCEPTION_DENYLIST = {
+    "@@||360.cn^",
+}
+
 
 def fetch(url: str, timeout: int = 30, retries: int = 4) -> str:
     """优先用 curl（兼容 CI 与受限网络），失败回退 urllib。带重试。"""
@@ -106,12 +112,16 @@ def main() -> int:
                 continue
             seen.add(key)
             cat = categorize(line)
+            stripped = line.strip()
             if cat == "block":
-                blocks.append(line.strip())
+                blocks.append(stripped)
             elif cat == "cosmetic":
-                cosmetics.append(line.strip())
+                cosmetics.append(stripped)
             else:
-                exceptions.append(line.strip())
+                # 过滤过宽例外规则（如 @@||360.cn^ 放行整个根域）
+                if stripped.lower() in WIDE_EXCEPTION_DENYLIST:
+                    continue
+                exceptions.append(stripped)
             added += 1
         per_source[name] = added
 
