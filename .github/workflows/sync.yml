@@ -6,10 +6,9 @@ on:
     - cron: '21 2 * * *'
   push:
     branches: [main]
-    # 仅当合并逻辑/转换逻辑/工作流本身变更时才重跑，避免自动提交造成循环
+    # 仅当合并逻辑/工作流本身变更时才重跑，避免自动提交造成循环
     paths:
       - 'merge.py'
-      - 'to_loon.py'
       - '.github/workflows/sync.yml'
   workflow_dispatch: {}   # 允许在 Actions 页面手动点 “Run workflow” 立即触发
 
@@ -31,17 +30,14 @@ jobs:
       - name: Merge & dedupe rules
         run: python merge.py
 
-      - name: Generate Loon rules
-        run: python to_loon.py
-
       - name: Commit & push if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add merged.txt loon.txt loon_exemptions.txt
+          git add merged.txt
           if git diff --cached --quiet; then
             echo "规则无变化，跳过提交"
           else
-            git commit -m "chore: auto-sync merged rules + loon rules $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "chore: auto-sync merged rules $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
