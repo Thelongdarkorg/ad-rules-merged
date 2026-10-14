@@ -143,7 +143,7 @@ def main() -> int:
         "! 反馈加QQ:1584574988\n"
         f"! Homepage: {homepage}\n"
         "! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt\n"
-        "! 订阅线路2国内连接稳（可达性更好）：https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/merged.txt\n"
+        "! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt\n"
         "! Expires: 12 hours\n"
         f"! Generated: {now}\n"
         f"! Total rules: {total}\n"
