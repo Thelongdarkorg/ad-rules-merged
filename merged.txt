@@ -5,8 +5,8 @@
 ! 反馈加QQ:1584574988
 ! Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
 ! Expires: 12 hours
-! Generated: 2026-10-13 18:01:11 UTC+8
-! Total rules: 33629
+! Generated: 2026-10-14 09:44:55 UTC+8
+! Total rules: 33454
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||amusingarmorycomment.com^
@@ -5804,8 +5804,6 @@ www.itdog.cn#%#window.alert=function(str){return}
 *-ad.video.yximgs.com*
 *-ad.wtzw.com*
 *-be-pack-sign.pglstatp-toutiao.com*
-/get/*?zoneid=$script
-/pangolin-sdk.*/
 0.0.0.0 *-inapps.appsflyersdk.com
 0.0.0.0 *-launches.appsflyersdk.com
 0.0.0.0 *.bjmantis.net
@@ -16739,23 +16737,17 @@ www.itdog.cn#%#window.alert=function(str){return}
 74.125.200.188 alt2-mtalk.google.com #SG
 74.125.200.188 alt8-mtalk.google.com
 74.125.204.188 alt3-mtalk.google.com
-99.84.133.50 www.themoviedb.org
-99.84.238.181 image.tmdb.org
-::1 ip6-localhost
-ip-cidr, 223.111.27.248/32^
+<!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">访问被拦截！</title></head><body onload="bindall()" style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css">	.select {float: right;margin: 10px 20px 0 0;height: 32px;line-height: 20px;font-size: 14px;width: 80px;}</style><select class="select" name="language" onchange="changeLanguage(this.options[this.options.selectedIndex].value)"><option id="option-zh" onclick="changeLanguageZh()" value="zh">中文</option><option id="option-en" onclick="changeLanguageEn()" value="en">English</option></select><div style="clear: both;"></div></div><div style="min-height:13.125rem;width:100%"><div style="margin-top:3.75rem;margin-left:18.4375rem;height:52.38;width:83.04%;"><svg xmlns="http://www.w3.org/2000/svg" style="width: 3.125rem;height: 3.125rem" viewBox="0 0 50 50"><path fill="#e84e4c" d="M25,0A25,25,0,1,0,50,25,25,25,0,0,0,25,0Zm1.6,37.16H22.85V33.41H26.6Zm0-6.63H22.85L22.35,13H27.1Z"/></svg><font style="font-family:MicrosoftYaHei;font-size:4.375rem;color:#e94d4c;margin-left: 0.75rem;font-weight: bold;">418</font></div><div style="margin-left:18.4375rem;height:47.62%;width:83.04%;"><font id="a" style="font-family:MicrosoftYaHei;font-size:1.875rem;color:#999999;word-wrap:break-word;">您的请求疑似攻击行为！</font><p style="font-family:MicrosoftYaHei;font-size:0.9rem;color:#999999;word-wrap:break-word;"><span id="c">事件ID：</span><span style="color:#499df2" id="d">34-dect-73-20261014085046-444b04f6</span></p></div></div><div style="height:15.625rem;width:100%;min-width:105rem;"><div style="margin-left:18.4375rem;float:left;width:50rem"><p id="b" style="margin-top:10px">如果您是站长，您可以前往WAF控制台进行误报屏蔽设置，让您的访问不再被拦截</p></div></div></body><script>function changeLanguage(value) {if (value === 'zh') {changeLanguageZh();} else if (value === 'en') {changeLanguageEn();} else {changeLanguageZh();}}function changeLanguageZh() {document.getElementById("title").innerHTML = "访问被拦截！";document.getElementById("a").innerHTML = "您的请求疑似攻击行为！";document.getElementById("b").innerHTML = "如果您是站长，您可以前往WAF控制台进行误报屏蔽设置，让您的访问不再被拦截";document.getElementById("c").innerHTML = "事件ID：";}function changeLanguageEn() {document.getElementById("title").innerHTML = "The access is blocked.";document.getElementById("a").innerHTML = "Sorry, your request has been intercepted because it appears to be an attack.";document.getElementById("b").innerHTML = "If you are the webmaster, configure related parameters on the WAF console to allow your requests.";document.getElementById("c").innerHTML = "Event ID:";}var language = navigator.language || navigator.browserLanguage;var re_zh = /^zh/;if (language.match(re_zh)) {changeLanguageZh();document.getElementById("option-zh").setAttribute("selected", true);} else {changeLanguageEn();document.getElementById("option-en").setAttribute("selected", true);}</script></html>
 ||*-*-*-lrycfv.vip^
 ||*-ad-sign.byteimg.com^
-||*-ad-union-sdk.pglstatp-toutiao.com^
 ||*-ad.a.yximgs.com^
 ||*-ad.adbkwai.com^
-||*-ad.adkwai.com^
 ||*-ad.adukwai.com^
 ||*-ad.gskwai.com^
 ||*-ad.wtzw.com^
 ||*-applog.fqnovel.com^
 ||*-inapps.appsflyersdk.com^
 ||*-launches.appsflyersdk.com^
-||*-reading-ad.qznovelvod.com^
 ||*.*-t0613.vip^
 ||*.01fwzb.com^
 ||*.04kai.org^
@@ -16787,10 +16779,8 @@ ip-cidr, 223.111.27.248/32^
 ||*.9tjoj6.com^
 ||*.a48962121.top^
 ||*.acdnrvh.com^
-||*.ads.heytapmobi.com^
 ||*.amwexgj.com^
 ||*.anhuyj.cn^
-||*.applovin.com^
 ||*.arbyyu.com^
 ||*.awkwla.cn^
 ||*.awsrp4.com^
@@ -16850,7 +16840,6 @@ ip-cidr, 223.111.27.248/32^
 ||*.jqnljze.xyz^
 ||*.jsak628.vip^
 ||*.jtkkkxy.com^
-||*.juicyads.me^
 ||*.jvere.xyz^
 ||*.jwcnmta.top^
 ||*.jyzkhdq.com^
@@ -16927,7 +16916,6 @@ ip-cidr, 223.111.27.248/32^
 ||*.uweisit.top^
 ||*.v4v6v4.com^
 ||*.vkomjd.com^
-||*.voiceads.cn^
 ||*.vu1elrx.com^
 ||*.wacaoldy1.com^
 ||*.weilayun.com^
@@ -16954,20 +16942,11 @@ ip-cidr, 223.111.27.248/32^
 ||*.ztgha.xyz^
 ||*.zxscn.com^
 ||*.zzz725.top^
-||*/omts.tc.qq.com^
-||*/snscosdownload/*/reserved/*^
 ||*ad.adbkwai.com^
-||*ad.wtzw.com^
-||*adintl.cn^
-||*googleads*^
-||*googleadsserving.cn^
 ||*live-p2p*.bilibili*^
 ||*martrix_bbs.gif
 ||*martrix_bbs.jpg
-||*pangolin*toutiao*.com^
-||*pglstatp-toutiao.com^
 ||*stun.kugou.com^
-||*unityads.unity3d.com^
 ||*vmind.qqvideo.tc.qq.com^
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
@@ -17066,9 +17045,6 @@ ip-cidr, 223.111.27.248/32^
 ||1178.shucong.com^
 ||118.pkvgbk.com^
 ||11g.yiqig.cn^
-||120.226.10.195^
-||120.232.58.157^
-||120.232.6.158^
 ||1206q3-giqvvwa1jie9-017.cbhdmir.cn^
 ||1212.ehgssdg.cn^
 ||1224.dxsbb.com^
@@ -17848,7 +17824,6 @@ ip-cidr, 223.111.27.248/32^
 ||activity.app.autohome.com.cn^
 ||activity.baidu.com^
 ||activity.hdslb.com^
-||activity.inads.cn^
 ||activity.serving-sys.com^
 ||activity.tuifish.com^
 ||activity.yuyiya.com^
@@ -17894,9 +17869,6 @@ ip-cidr, 223.111.27.248/32^
 ||ad-r-t.soulapp-inc.cn^
 ||ad-r.soulapp.cn^
 ||ad-reward.soulapp.cn^
-||ad-rs6-bjmt-platform34.idcyz.hb1.kwaidc.com^
-||ad-rs6-bjmt5406.idcyz.hb1.kwaidc.com^
-||ad-rs6-bjmt5409.idcyz.hb1.kwaidc.com^
 ||ad-sdk.aiclk.com^
 ||ad-sdk.huxiu.com^
 ||ad-sdk.lenovomm.com^
@@ -17918,7 +17890,9 @@ ip-cidr, 223.111.27.248/32^
 ||ad.17173.com^
 ||ad.1kxun.com^
 ||ad.3.cn^
+||ad.360.cn^
 ||ad.360in.com^
+||ad.360safe.com^
 ||ad.360yield.com^
 ||ad.363.in^
 ||ad.3dnews.ru^
@@ -17954,7 +17928,6 @@ ip-cidr, 223.111.27.248/32^
 ||ad.dev.360.cn^
 ||ad.digitimes.com.tw^
 ||ad.directmirror.com^
-||ad.dm.gg^
 ||ad.dokrmob.com^
 ||ad.doubanio.com^
 ||ad.download.cnet.com^
@@ -18056,7 +18029,6 @@ ip-cidr, 223.111.27.248/32^
 ||ad.reachlocal.com^
 ||ad.rednet.cn^
 ||ad.reklamport.com^
-||ad.samsungadhub.com^
 ||ad.scdn.io^
 ||ad.search.ch^
 ||ad.seeyouyima.com^
@@ -18067,7 +18039,6 @@ ip-cidr, 223.111.27.248/32^
 ||ad.sinovision.net^
 ||ad.slutload.com^
 ||ad.smaato.net^
-||ad.smartadserver.com^
 ||ad.smartclip.net^
 ||ad.sohu.com^
 ||ad.spielothek.so^
@@ -18097,9 +18068,6 @@ ip-cidr, 223.111.27.248/32^
 ||ad.winningpartner.com^
 ||ad.wretch.cc^
 ||ad.wtzw.com^
-||ad.wx.com:12638^
-||ad.wx.com^
-||ad.xelements.cn^
 ||ad.xiaohongshu.com^
 ||ad.xiaomi.com^
 ||ad.xmmnsd.com^
@@ -18259,6 +18227,7 @@ ip-cidr, 223.111.27.248/32^
 ||adlink.shopsafe.co.nz^
 ||adlive.cn^
 ||adlocus.com^
+||adlog.360.cn^
 ||adlog.flurry.com^
 ||adlog.qingting.fm^
 ||adm.265g.com^
@@ -18325,6 +18294,7 @@ ip-cidr, 223.111.27.248/32^
 ||adplxmd.com^
 ||adpm.app.qq.com^
 ||adpolestar.net^
+||adpop.360.cn^
 ||adpro.cn^
 ||adpro.pro.cn^
 ||adproxy.autohome.com.cn^
@@ -18343,13 +18313,7 @@ ip-cidr, 223.111.27.248/32^
 ||adrs.sdo.com^
 ||adrunnr.com^
 ||ads*-normal*.zijieapi.com^
-||ads*-normal-hl.zijieapi.com^
-||ads*-normal-lf.zijieapi.com^
-||ads*-normal-lq.zijieapi.com^
-||ads*-normal.zijieapi.com^
-||ads*.papegames.com^
 ||ads*.zijieapi.com^
-||ads-*.xhscdn.com^
 ||ads-acc.qqbrowser.qq.com^
 ||ads-api.videojj.com^
 ||ads-bid.leadmoad.com^
@@ -18361,8 +18325,6 @@ ip-cidr, 223.111.27.248/32^
 ||ads-img-bak.xhscdn.com^
 ||ads-lb.serving-sys.cn^
 ||ads-marketing-vivofs.vivo.com.cn
-||ads-mas-us.vivobrowser.com^
-||ads-mas.vivobrowser.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||ads-twitter.com^
 ||ads-union.jd.com^
@@ -18393,7 +18355,6 @@ ip-cidr, 223.111.27.248/32^
 ||ads.lejuliang.cn^
 ||ads.lejuliang.com^
 ||ads.lingyuexiu.cn^
-||ads.log.kafka.top^
 ||ads.midongtech.com^
 ||ads.mojicdn.com^
 ||ads.morefreegame.com^
@@ -18525,7 +18486,6 @@ ip-cidr, 223.111.27.248/32^
 ||adss.dotdo.net^
 ||adss.video.qq.com^
 ||adss.yahoo.com^
-||adsserver.yadro.ru^
 ||adstage-analytics.herokuapp.com^
 ||adstat.cp11.ott.cibntv.net^
 ||adstatic.zhihu.com^
@@ -18558,7 +18518,7 @@ ip-cidr, 223.111.27.248/32^
 ||adultfriendfinder.com^
 ||adups.com^
 ||aduu.cn^
-||adv.adriver.ru^
+||adv.360.cn^
 ||adv.api.mucfc.com^
 ||adv.app.qq.com^
 ||adv.bandi.so^
@@ -18847,7 +18807,6 @@ ip-cidr, 223.111.27.248/32^
 ||apd-pcdnvodstat.teg.tencent-cloud.net^
 ||apd-vodp2plogin.teg.tencent-cloud.net^
 ||apd-vodp2pnat.teg.tencent-cloud.net^
-||api-access.pangolin-sdk-toutiao-*.com^
 ||api-access.pangolin-sdk-toutiao-b.com
 ||api-access.pangolin-sdk-toutiao.com
 ||api-access.pangolin-sdk-toutiao.com.queniuyk.com^
@@ -18906,7 +18865,6 @@ ip-cidr, 223.111.27.248/32^
 ||api.chcatv.hismarttv.com^
 ||api.cmt.mob.com^
 ||api.coolguang.com^
-||api.crashlytics.com^
 ||api.cupid.iqiyi.com^
 ||api.cupid.qiyi.com^
 ||api.datanexus.qq.com^
@@ -18946,7 +18904,6 @@ ip-cidr, 223.111.27.248/32^
 ||api.ketedata.com^
 ||api.koudaikj.com^
 ||api.kurobbs.com/config/getOpenScreen*^
-||api.launchdarkly.com^
 ||api.leadbolt.net^
 ||api.liumingye.cn^
 ||api.luckyorange.com^
@@ -18976,7 +18933,6 @@ ip-cidr, 223.111.27.248/32^
 ||api.revenuads.com^
 ||api.rideraid.net^
 ||api.rlcdn.com^
-||api.rollbar.com^
 ||api.sa.hismarttv.com^
 ||api.segment.io^
 ||api.share.mob.com^
@@ -19075,6 +19031,7 @@ ip-cidr, 223.111.27.248/32^
 ||app-log.dewu.com^
 ||app-monitor.ele.me^
 ||app-preload.iqiyi.com^
+||app.360.cn^
 ||app.3987.com^
 ||app.9yyg.cn^
 ||app.abc000.today^
@@ -19162,7 +19119,6 @@ ip-cidr, 223.111.27.248/32^
 ||apppv.zol.com.cn^
 ||apps.bytesfield-b.com^
 ||apps.bytesfield.com^
-||apps.iad.apple.com^
 ||apps.mobilityware.com^
 ||apps.oceanengine.com^
 ||apps.outfit7.com^
@@ -19175,6 +19131,7 @@ ip-cidr, 223.111.27.248/32^
 ||appspromote.wostore.cn^
 ||appsrv1.madserving.com^
 ||appsrv4.madserving.com^
+||appstore.360.cn^
 ||appstore.qzone.qq.com^
 ||appstoreort-stsdk.vivo.com.cn^
 ||appstorepnrt-stsdk.vivo.com.cn^
@@ -19295,7 +19252,6 @@ ip-cidr, 223.111.27.248/32^
 ||auai2951.xn--oor702fa592u.com^$important
 ||audd.shuzilm.cn^
 ||audience.network^
-||audit.quantcast.mgr.consensu.org^
 ||auni.telecome.cn^
 ||auni.unioncom.cc^
 ||auth-uploads.dhcc.wang^
@@ -20019,7 +19975,6 @@ ip-cidr, 223.111.27.248/32^
 ||cdn.004999.xyz^
 ||cdn.0i-i0.com^
 ||cdn.5bong.com^
-||cdn.abtest.ai^
 ||cdn.adapi.fotoable.com^
 ||cdn.adsk2.co^
 ||cdn.adstract.com^
@@ -20047,7 +20002,6 @@ ip-cidr, 223.111.27.248/32^
 ||cdn.iclicash.com^
 ||cdn.img.kachapt.cn^
 ||cdn.img.liuxingyul.cn^
-||cdn.inads.cn^
 ||cdn.innity.net^
 ||cdn.jesgoo.com^
 ||cdn.jiuzhilan.com^
@@ -20094,7 +20048,6 @@ ip-cidr, 223.111.27.248/32^
 ||cdn.soulapp.cn^
 ||cdn.sp.rizhao9.com^
 ||cdn.split.io^
-||cdn.spotxcdn.com^
 ||cdn.springserve.com^
 ||cdn.taboola.com^
 ||cdn.tianmidian.com^
@@ -20102,7 +20055,6 @@ ip-cidr, 223.111.27.248/32^
 ||cdn.uaa010.com^
 ||cdn.vamaker.com^
 ||cdn.viglink.com^
-||cdn.vwo.com^
 ||cdn.wwads.cn^
 ||cdn.xiangkanwang.com^
 ||cdn.xinstall.com^
@@ -20138,7 +20090,6 @@ ip-cidr, 223.111.27.248/32^
 ||cee2.iteye.com^
 ||centering.raidrive.com/standard/c/widget
 ||cerebral.typn.com^
-||certify.alexametrics.com^
 ||ceuswatcab01.blob.core.windows.net^
 ||ceuswatcab02.blob.core.windows.net^
 ||cf.iadsdk.apple.com^
@@ -20231,7 +20182,6 @@ ip-cidr, 223.111.27.248/32^
 ||cleaner.baidu.com^
 ||click*forhz.adsmogo.com^
 ||click-cn.plista.com^
-||click.em.pardot.com^
 ||click.hunantv.com^
 ||click.linksynergy.com^
 ||click.mailerlite.com^
@@ -20277,6 +20227,7 @@ ip-cidr, 223.111.27.248/32^
 ||clkservice2.dict.youdao.com^
 ||clotfun.mobi^
 ||clotfun.online^
+||cloud.360safe.com^
 ||cloud.codenow.cn^
 ||cloud.shtac.cn^
 ||cloud.zyiis.net^
@@ -20327,7 +20278,6 @@ ip-cidr, 223.111.27.248/32^
 ||cn-fp.apitd.net^
 ||cn-tk.anythinktech.com^
 ||cn.api.push.le.com^
-||cn.gdt.qq.com^
 ||cn.pub.vpon.com^
 ||cn.tatami-solutions.com^
 ||cnbole.net^
@@ -20375,14 +20325,11 @@ ip-cidr, 223.111.27.248/32^
 ||coin-api.y5coin.com^
 ||coin-have.com^
 ||coin-hive-proxy-ybydcnjgkl.now.sh^
-||coin-hive-proxy.com^
 ||coin-hive.com^
 ||coinblind.com^
 ||coinerra.com^
 ||coinhive-manager.com^
-||coinhive-proxy.com^
 ||coinhive.com^
-||coinhiveproxy.com^
 ||coinimp.com^
 ||coinminerz.com^
 ||coinnebula.com^
@@ -20425,7 +20372,6 @@ ip-cidr, 223.111.27.248/32^
 ||connect.summit.co.uk^
 ||connection-center.vivo.com.cn^
 ||connectivitycheck.vivo.com.cn^
-||consent-api.exponential.com^
 ||consent-pref.trustarc.com^
 ||consent.cookiebot.com^
 ||consent.trustarc.com^
@@ -20794,6 +20740,7 @@ ip-cidr, 223.111.27.248/32^
 ||data-sdk-uuid-report.dreport.meituan.net^
 ||data-track.yingxiong.com^
 ||data-video.71edge.com^
+||data.360.cn^
 ||data.3975.com^
 ||data.ab.qq.com^
 ||data.ad-score.com^
@@ -20802,7 +20749,6 @@ ip-cidr, 223.111.27.248/32^
 ||data.danmu.baofeng.com^
 ||data.doodlemobile.com^
 ||data.feidee.net^
-||data.flurry.com^
 ||data.gosquared.com^
 ||data.kameleoon.io^
 ||data.mistat.intl.xiaomi.com^
@@ -20988,7 +20934,6 @@ ip-cidr, 223.111.27.248/32^
 ||dispatch-api-online.vemarsdev.com^
 ||dispatcher.upmc.uc.cn^
 ||dispenser-rtb.sape.ru^
-||display-apps-ui-soak.iad.apple.com^
 ||display-apps-ui.iad.apple.com^
 ||display.360totalsecurity.com^
 ||display.ad.daum.net^
@@ -21147,7 +21092,6 @@ ip-cidr, 223.111.27.248/32^
 ||down.xiazaiyuan.net^
 ||downali.game.uc.cn^
 ||downlaod.xiaocen.com^
-||download*.vzuu.com^
 ||download-juui-plugin.hismarttv.com^
 ||download-upgrade.hismarttv.com^
 ||download.123cw.cn^
@@ -21608,7 +21552,6 @@ ip-cidr, 223.111.27.248/32^
 ||eland.doublemax.net^
 ||electric-shop.yaoguo.com^
 ||em.baidu.com^
-||email-open.dripemail2.com^
 ||email.getresponse.com^
 ||email.mailgun.net^
 ||emar.com^
@@ -21720,6 +21663,7 @@ ip-cidr, 223.111.27.248/32^
 ||ez4.cn^
 ||ezine.oupeng.com^
 ||ezucods.cn^
+||f.360.cn^
 ||f.520tingshu.com^
 ||f.8fenxiang.com^
 ||f.airstar.com^
@@ -21822,7 +21766,6 @@ ip-cidr, 223.111.27.248/32^
 ||feedback.whalecloud.com^
 ||feeds.logicbuy.com^
 ||feeds.videosz.com^
-||feeds.vivo.com.cn^
 ||feedsplat.vivo.com.cn^
 ||fei232.bhzje7ua9.com^
 ||feidalu.com^
@@ -21901,7 +21844,6 @@ ip-cidr, 223.111.27.248/32^
 ||fm.p0y.cn^
 ||fm.qzone.qq.com^
 ||fmgoal.com^
-||fmiphone-apple.com^
 ||fnkjj.com^
 ||focuscat.com^
 ||focusprolight.com^
@@ -22042,7 +21984,6 @@ ip-cidr, 223.111.27.248/32^
 ||g9s.sgzs999.com^
 ||gaandroid.talkingdata.net^
 ||gad.kugou.com^
-||gads.pubmatic.com^
 ||gadwhy.com^
 ||gafxa.code.mytanwan.com^
 ||gahhs029.top^
@@ -22052,6 +21993,7 @@ ip-cidr, 223.111.27.248/32^
 ||galileotelemetry.tencent.com^
 ||game-attribute.biligame.com^
 ||game-res.meizu.com^
+||game.360.cn^
 ||game.9xzj.com^
 ||game.baichuanhd.cn^
 ||game.e.kuaishou.com^
@@ -22064,6 +22006,7 @@ ip-cidr, 223.111.27.248/32^
 ||game.weibo.cn^
 ||game.weibo.com^
 ||game.weixin.qq.com^
+||gamead.360.cn^
 ||gamead.swjoy.com^
 ||gameads.digyourowngrave.com^
 ||gamebox.kugou.com^
@@ -22102,7 +22045,6 @@ ip-cidr, 223.111.27.248/32^
 ||gdfpsec.ksapisrv.com^
 ||gdgy56.com^
 ||gdmf.apple.com^
-||gdpr.trustarc.com^
 ||gdskywings.com^
 ||gdsqwy.org^
 ||gdxlks.cn^
@@ -22607,7 +22549,6 @@ ip-cidr, 223.111.27.248/32^
 ||huashengtai.net^
 ||huashuowork.com^
 ||huatihui.io^
-||huaweicdncmnet.inter.iqiyi.com^
 ||huaxinxunye.cn^
 ||huayi65.com^
 ||hub5emu.v6.shub.sandai.net^
@@ -23090,7 +23031,6 @@ ip-cidr, 223.111.27.248/32^
 ||ir.mail.126.com^
 ||ir.mail.163.com^
 ||ir.mail.yeah.net^
-||iris.iad.apple.com^
 ||iroby.com^
 ||ironsrc.com^
 ||irpmt.mail.163.com^
@@ -23118,7 +23058,6 @@ ip-cidr, 223.111.27.248/32^
 ||itaoxiaoshuo.com^
 ||item.ttkvod.com^
 ||items.bingdiantao.com^
-||itjcqlp.icu^
 ||itnuzleafan.com^
 ||its-dori.tumblr.com^
 ||its.fugetech.com^
@@ -23754,11 +23693,9 @@ ip-cidr, 223.111.27.248/32^
 ||laiququan.com^
 ||lait.a21l.top^
 ||lajizhan.org^
-||lalabaos1026.top^
 ||lalanuz.cn^
 ||lambda.raidrive.com^
 ||lan.btwan5.com^
-||landing.gdtimg.com^
 ||langchars.com^
 ||langjiyisheng.com^
 ||lansha.tv^
@@ -23819,7 +23756,6 @@ ip-cidr, 223.111.27.248/32^
 ||lf-cdn-tos.bytescm.com^
 ||lf-event-manager.oceanengine.com^
 ||lf-fe.fqnovelstatic.com^
-||lf-leads-fe-scm.bytecdn.com.*.queniubg.com^
 ||lf-leads-fe-scm.bytecdn.com^
 ||lf-reward-video.bytedcdn.com^
 ||lf-wkrs.wkbrowser.com^
@@ -23951,7 +23887,6 @@ ip-cidr, 223.111.27.248/32^
 ||localytics.com^
 ||locdrop.query.yahoo.com^
 ||lofter.httpdns.c.163.com^
-||log*-applog-lq.fqnovel.com^
 ||log*-misc-lq.amemv.com^
 ||log*-normal-lq.toutiaoapi.com^
 ||log-alibaba-taobao-douyin.cdn.bcebos.com^
@@ -23967,6 +23902,7 @@ ip-cidr, 223.111.27.248/32^
 ||log-upload-v6.mihoyo.com^
 ||log-verify.mob.com^
 ||log-yex.youdao.com^
+||log.360.cn^
 ||log.8zhuayu.cc^
 ||log.aliyuncs.com^
 ||log.b612kaji.com^
@@ -24021,7 +23957,6 @@ ip-cidr, 223.111.27.248/32^
 ||logos.kiwibrowser.com^
 ||logoshejishi.com^
 ||logs.chelaile.net.cn^
-||logs.logrocket.io^
 ||logsdk.qq.com^
 ||logserver-cn-comue.obs.cn-north1.ctyun.cn^
 ||logserver-cn-ty.obs.cn-north1.ctyun.cn^
@@ -24060,8 +23995,6 @@ ip-cidr, 223.111.27.248/32^
 ||lsjarh.top^
 ||lstat.youku.com^
 ||lsxmg.com^
-||lt.activecampaign.com^
-||lt.pardot.com^
 ||lt.shuinn7.top^
 ||ltcprtc.com^
 ||ltheanine.cn^
@@ -24076,7 +24009,6 @@ ip-cidr, 223.111.27.248/32^
 ||luckysf.net^
 ||lucting.cn^
 ||lufax.com^
-||luggagetumbledapple.com^
 ||lulu.sqznt.cn^
 ||luodiye6666.oss-cn-hongkong.aliyuncs.com^
 ||luotediao.net^
@@ -24123,6 +24055,7 @@ ip-cidr, 223.111.27.248/32^
 ||m.1768.com^
 ||m.1919388.net^
 ||m.28487.net^
+||m.360.cn^
 ||m.3987.com^
 ||m.495495.com^
 ||m.51xmgys.com^
@@ -24555,6 +24488,7 @@ ip-cidr, 223.111.27.248/32^
 ||mapi.bestpay.com.cn^
 ||maplehaze.cn^
 ||maplocatesdksnapshot.d.meituan.net^
+||mapp.360.cn^
 ||mapp.qzone.qq.com^
 ||mapping.yoyi.com.cn^
 ||maps.testing.amap.com^
@@ -24617,7 +24551,9 @@ ip-cidr, 223.111.27.248/32^
 ||mcdn.bilivideo.cn^
 ||mcdn.kandian.qq.com^
 ||mcgi.v.qq.com^
+||mclean.cloud.360safe.com^
 ||mclick.simba.taobao.com^
+||mcloud.360.cn^
 ||mcore.vcgame.cn^
 ||mcs.snssdk.com^
 ||mcupdate.gstarcad.com^
@@ -24758,7 +24694,6 @@ ip-cidr, 223.111.27.248/32^
 ||mine.z74d.com^
 ||minemytraffic.com^
 ||minergate.com^
-||minero-proxy.com^
 ||minero.cc^
 ||minesage.com^
 ||minfo.wps.cn^
@@ -24949,6 +24884,7 @@ ip-cidr, 223.111.27.248/32^
 ||mscimg.com^
 ||msclick2.kuwo.cn^
 ||msdk.qq.com^
+||msg.360.cn^
 ||msg.71.am^
 ||msg.c002.ottcn.com^
 ||msg.m.letv.com^
@@ -25006,6 +24942,7 @@ ip-cidr, 223.111.27.248/32^
 ||mv71.top^
 ||mv8l4bj34.cc^
 ||mvads.kugou.com^
+||mvconf.cloud.360safe.com^
 ||mvip.zhuba8.com^
 ||mw.app.qq.com^
 ||mwa.xingyimin.com^
@@ -25195,6 +25132,7 @@ ip-cidr, 223.111.27.248/32^
 ||nongsalei.com^
 ||nop.xpanama.net^
 ||nosup-jd1.127.net^
+||notice.360.cn^
 ||notice.game.xiaomi.com^
 ||notice.iqiyi.com^
 ||notice.uchome.manyou.com^
@@ -25355,7 +25293,6 @@ ip-cidr, 223.111.27.248/32^
 ||open-client.douyin.com^
 ||open-iflow.meizu.com^
 ||open-uc.cn^
-||open.activecampaign.com^
 ||open.convertkit.com^
 ||open.douyin.com^
 ||open.lalanuz.cn^
@@ -25431,15 +25368,9 @@ ip-cidr, 223.111.27.248/32^
 ||oz8xhen.top^
 ||p*-ad-aweme.byteimg.com^
 ||p*-ad-sign.byteimg.com^
-||p*-ad.adukwai.com^
 ||p*-ad.bytecdn.cn
 ||p*-ad.bytecdn.cn^
-||p*-be-pack-sign.pglstatp-toutiao.com^
-||p*-ff.adkwai.com^
-||p*-lm.adkwai.com^
-||p*-lm.adukwai.com^
 ||p*-webcast-sign.douyinpic.com^
-||p*.adkwai.com^
 ||p*.bdxiguaimg.com^$important
 ||p-log.ykimg.com^
 ||p.7060.la^
@@ -25556,8 +25487,6 @@ ip-cidr, 223.111.27.248/32^
 ||page.acm.dzwww.com^
 ||page.amap.com^
 ||page.xywy.com^
-||pagead*.googleadservices-cn.com^
-||pagead*.googlesyndication-cn.com^
 ||pagead-tpc.l.google.com^
 ||pagead.google.com^
 ||pagead.l.google.com^
@@ -25705,6 +25634,7 @@ ip-cidr, 223.111.27.248/32^
 ||pic.2u.com.cn^
 ||pic.adver.com.tw^
 ||pic.aihaogou.com.cn^
+||pic.bizhi.360.cn^
 ||pic.by175.com^
 ||pic.casee.cn^
 ||pic.cnmo-img.com.cn^
@@ -25758,7 +25688,6 @@ ip-cidr, 223.111.27.248/32^
 ||pingmid.qq.com^
 ||pingshetrip.com^
 ||pingtas.qq.com^
-||pinner-imgserver.byted.org^
 ||pintour.com^
 ||pinzhitmall.com^
 ||pitaya.bytedance.com^
@@ -25772,7 +25701,6 @@ ip-cidr, 223.111.27.248/32^
 ||pixel.adsafeprotected.com^
 ||pixel.advertising.com^
 ||pixel.aweber.com^
-||pixel.mailchimp.com^
 ||pixel.mathtag.com^
 ||pixel.quantserve.com^
 ||pixel.rubiconproject.com^
@@ -25834,7 +25762,6 @@ ip-cidr, 223.111.27.248/32^
 ||pns.ximalaya.com^
 ||pnsblw.cn^
 ||pofang.com^
-||polaris*-normal-lq.zijieapi.com^
 ||polaris-sinfonlinea.zijieapi.com^
 ||polaris.zijieapi.com^
 ||polaris3-normal-hl.zijieapi.com^
@@ -25846,6 +25773,7 @@ ip-cidr, 223.111.27.248/32^
 ||policy.video.iqiyi.com^
 ||polkoa.com^
 ||pomhz.com^
+||pop.360.cn^
 ||pop.91mangrandi.com^
 ||pop.code.mytanwan.com^
 ||pop.code.poyang.cn^
@@ -25913,6 +25841,7 @@ ip-cidr, 223.111.27.248/32^
 ||projectwonderful.com^
 ||prom.b.qq.com^
 ||prom.gome.com.cn^
+||promo.360.cn^
 ||promo.fileforum.com^
 ||promos.fling.com^
 ||promote.biz.weibo.cn^
@@ -25948,7 +25877,6 @@ ip-cidr, 223.111.27.248/32^
 ||pub1.cope.es^
 ||pubads.g.doubleclick.net^
 ||pubbirdf.com^
-||public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com^
 ||public-deliver5.miguvideo.com^
 ||public-test.yangqianguan.com^
 ||public.app.autohome.com.cn^
@@ -25979,6 +25907,7 @@ ip-cidr, 223.111.27.248/32^
 ||push-dc.51y5.net^
 ||push-rtmp-spe-l1.douyincdn.com^
 ||push.126.net^
+||push.360.cn^
 ||push.5z5zw.com^
 ||push.air-matters.com^
 ||push.app.autohome.com.cn^
@@ -26156,7 +26085,6 @@ ip-cidr, 223.111.27.248/32^
 ||qttunion.com^
 ||quanliyouxi.cn^
 ||quansj.cn^
-||quantcast.mgr.consensu.org^
 ||quantcount.com^
 ||quantserve.com^
 ||qucaigg.com^
@@ -26286,6 +26214,7 @@ ip-cidr, 223.111.27.248/32^
 ||rec.g.163.com^
 ||rec.moviebox.baofeng.net^
 ||recmd.html5.qq.com^
+||recommend.bizhi.360.cn^
 ||recommender-launcher.hismarttv.com^
 ||recreativ.ru^
 ||recv-vd.gridsumdissector.cn^
@@ -26317,6 +26246,7 @@ ip-cidr, 223.111.27.248/32^
 ||renren2.maoyun.tv^
 ||renrenjihua.com^
 ||report-sy.adview.cn^
+||report.360.cn^
 ||report.cms.qq.com^
 ||report.csslcloud.net^
 ||report.imtt.qq.com^
@@ -26325,7 +26255,6 @@ ip-cidr, 223.111.27.248/32^
 ||report.nfa.qq.com^
 ||report.qq.com^
 ||report.shunchangzhixing.com^
-||reports.crashlytics.com^
 ||req.startappservice.com^
 ||res-ga.smzdm.com^
 ||res.cocounion.com^
@@ -26432,7 +26361,6 @@ ip-cidr, 223.111.27.248/32^
 ||rtbasia.com^
 ||rtbcallback.sigmob.cn^
 ||rtbstat.zcdsp.com^
-||rtlog*-applog-lq.fqnovel.com^
 ||rtlog.snssdk.com^
 ||rtlog.vidown.cn^
 ||rtlog.zijieapi.com^
@@ -26472,6 +26400,7 @@ ip-cidr, 223.111.27.248/32^
 ||s.17173cdn.com^
 ||s.1rtb.net^
 ||s.35kds.com^
+||s.360.cn^
 ||s.5jjx.net^
 ||s.652748.com^
 ||s.6travel.com^
@@ -26613,7 +26542,6 @@ ip-cidr, 223.111.27.248/32^
 ||s5.keydot.net^
 ||s5yx5w.top^
 ||s6.bfzycdn.com^
-||s7.addthis.com^
 ||s8.001fzc.com^
 ||s8.dnaxddnc.com^
 ||s8.url.cn^
@@ -26652,7 +26580,6 @@ ip-cidr, 223.111.27.248/32^
 ||saxn.sina.com.cn^
 ||saxs.sina.com.cn^
 ||saxxaz.taohuayuan8888.com^
-||sb.adtidy.com^
 ||sb.scorecardresearch.com^
 ||sb88b.com^
 ||sbeacon.sina.com.cn^
@@ -26665,7 +26592,6 @@ ip-cidr, 223.111.27.248/32^
 ||sc.ggdoubi.com^
 ||sc.ggfeng.com^
 ||sc.iasds01.com^
-||sc.laoqj.top^
 ||sc.sczxy.com^
 ||sc.shayugg.com^
 ||sc1369.com^
@@ -26704,7 +26630,6 @@ ip-cidr, 223.111.27.248/32^
 ||sdac.lenovomm.com^
 ||sdapprecv.app.cntvwb.cn^
 ||sdb.amazonaws.com^
-||sdefm2ikfmn2i34n2.ser023.com^
 ||sdfp.snssdk.com^
 ||sdhzstone.net^
 ||sdk-ab-config-cdn.yunxish.com^
@@ -26767,7 +26692,6 @@ ip-cidr, 223.111.27.248/32^
 ||sdycd.com^
 ||sea.napi.ucweb.com^
 ||sealaly.net^
-||search.spotxchange.com^
 ||search.video.iqiyi.com^
 ||searchads.apple.com^
 ||searchignited.com^
@@ -26844,7 +26768,6 @@ ip-cidr, 223.111.27.248/32^
 ||settings.ttwebview.com^
 ||sezkkb.cn^
 ||sezvc.com^
-||sf*-be-pack.pglstatp-toutiao.com^
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||sf.vserv.mobi^
 ||sf1-amtos-cdn.bytesmanager.com^
@@ -27033,6 +26956,7 @@ ip-cidr, 223.111.27.248/32^
 ||snnnyy.com^
 ||snow001.com^
 ||sns-paopao.iqiyi.com^
+||so.360.cn^
 ||so9l.com^
 ||soarfi.cn^
 ||sobar.baidu.com^
@@ -27066,8 +26990,8 @@ ip-cidr, 223.111.27.248/32^
 ||soul-ad.soulapp.cn^
 ||soup.v.qq.com^
 ||source.youxiaoad.com^
-||sourcepoint.mgr.consensu.org^
 ||sousuo.xm.sjzhushou.com^
+||sp.360.cn^
 ||sp.fastclick.net^
 ||sp.gmossp-sp.jp^
 ||sp.wndoor.com^
@@ -27221,6 +27145,7 @@ ip-cidr, 223.111.27.248/32^
 ||stat-y.xywy.com^
 ||stat-z.xywy.com^
 ||stat.10jqka.com.cn^
+||stat.360.cn^
 ||stat.gamedl.qq.com^
 ||stat.juzitrack.com^
 ||stat.kugou.com^
@@ -27282,7 +27207,6 @@ ip-cidr, 223.111.27.248/32^
 ||stdl.qq.com^
 ||steelhousemedia.com^
 ||stervapoimenialena.info^
-||stg-cmws.iad.apple.com^
 ||stg8.com^
 ||stjzh.gdtarget.com^
 ||stlib.qbb6.com^
@@ -27398,7 +27322,6 @@ ip-cidr, 223.111.27.248/32^
 ||sync.outbrain.com^
 ||sync.rambler.ru^
 ||sync.republer.com^
-||sync.search.spotxchange.com^
 ||sync.springserve.com^
 ||sync.teads.tv^
 ||sync.teamrtb.net^
@@ -27699,7 +27622,6 @@ ip-cidr, 223.111.27.248/32^
 ||tmfmazuhttp-wangka.m.qq.com^
 ||tmisc.home.news.cn^
 ||tn.uvrifrd.cn^
-||tnc0-*.zijieapi.com^
 ||tnc0-aliec2.zijieapi.com^
 ||tnc0-alisc1.zijieapi.com^
 ||tnc3-aliec2.snssdk.com
@@ -27751,10 +27673,10 @@ ip-cidr, 223.111.27.248/32^
 ||tr.medproad.com^
 ||tr.outbrain.com^
 ||tr.snapchat.com^
+||trace.360.cn^
 ||trace.seeyouyima.com^
 ||track-east.mobileadtrading.com^
 ||track.58.com^
-||track.constantcontact.com^
 ||track.customer.io^
 ||track.easeus.com^
 ||track.hubspot.com^
@@ -27862,6 +27784,7 @@ ip-cidr, 223.111.27.248/32^
 ||tuia.cn^
 ||tuigoo.com^
 ||tuiguang.178.com^
+||tuiguang.360.cn^
 ||tuiguang.yicha.cn^
 ||tuijian.baidu.com^
 ||tuinihui.vip^
@@ -28106,6 +28029,7 @@ ip-cidr, 223.111.27.248/32^
 ||upgrade-launcher.hismarttv.com^
 ||upload-up.qtfm.cn^
 ||upload-z0.qiniup.com^
+||upload.360.cn^
 ||upload.ksapisrv.com^
 ||upload.xchina.biz^
 ||upload.xurongwl.com^
@@ -28143,7 +28067,6 @@ ip-cidr, 223.111.27.248/32^
 ||us.adserver.yahoo.com^
 ||us.bannyat.com^
 ||us.bs.serving-sys.com^
-||us.edge.rms.media.net^
 ||us.vortex-win.data.microsoft.com^
 ||usage.trackjs.com^
 ||user.tiankongzudui.com^
@@ -28195,7 +28118,6 @@ ip-cidr, 223.111.27.248/32^
 ||v.opzero.xyz^
 ||v.oq68.com^
 ||v.rmbn.net^
-||v.smtcdns.com^
 ||v.szpaopao.com^
 ||v00087.com^
 ||v02u9.cn^
@@ -28297,9 +28219,6 @@ ip-cidr, 223.111.27.248/32^
 ||vdapprecv.app.cntvwb.cn^
 ||vdazz.net^
 ||vdn1.vzuu.com^
-||vdn5-1.vzuu.com^
-||vdn5.vzuu.com^
-||vdn6.vzuu.com^
 ||vds82e.sejqb.com^
 ||ve.tsdlp.com^
 ||vedeh.com^
@@ -28329,7 +28248,6 @@ ip-cidr, 223.111.27.248/32^
 ||vid.applovin.com^
 ||vid.springserve.com^
 ||video-ad-stats.googlesyndication.com^
-||video-ads.twitter.com^
 ||video-cn.snssdk.com^
 ||video.cooguo.com^
 ||video.mnaspm.com^
@@ -28341,7 +28259,6 @@ ip-cidr, 223.111.27.248/32^
 ||videopush.baidu.com^
 ||vidoomy.com^
 ||vidsmoon.online^
-||view-apple.com^
 ||view.csslcloud.net^
 ||viglink.com^
 ||vimg.dwstatic.com^
@@ -28475,6 +28392,7 @@ ip-cidr, 223.111.27.248/32^
 ||walle.bayescom.com^
 ||wallet.advcash.com^
 ||wallpaper-*.file.myqcloud.com^
+||wallpaper.360.cn^
 ||wallpaper.apc.360.cn^
 ||wan.2345.com^
 ||wan.rising.cn^
@@ -28672,6 +28590,7 @@ ip-cidr, 223.111.27.248/32^
 ||worldh5.gamehz.cn^
 ||wowanalytics.co.uk^
 ||wowips.com^
+||wp.360.cn^
 ||wpadmngr.com^
 ||wpc.32df9.rhocdn.net^
 ||wpncdn.com^
@@ -28722,7 +28641,6 @@ ip-cidr, 223.111.27.248/32^
 ||wuqdebjfhjas.bid^
 ||wuuorz.cn^
 ||wuwho.cn^
-||wvcwop.zbbznk.xyz^
 ||ww-7o1-0h.os.23v7m9.cc^
 ||ww.wcav495.vip^
 ||ww.xiaopiaoyou.com^
@@ -28785,7 +28703,6 @@ ip-cidr, 223.111.27.248/32^
 ||www.djijrsh270.vip^
 ||www.fenqile.com^
 ||www.fi11aa198.com^
-||www.fmiphone-apple.com^
 ||www.gg86639.vip^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
@@ -28834,7 +28751,6 @@ ip-cidr, 223.111.27.248/32^
 ||www.uyunad.com^
 ||www.v6hfl4.top^
 ||www.vexd8.com^
-||www.view-apple.com^
 ||www.vvvtl.com^
 ||www.wcnwvz.xyz^
 ||www.xhslg84.vip^
@@ -28993,7 +28909,6 @@ ip-cidr, 223.111.27.248/32^
 ||xiaomiir.yaokantv.com^
 ||xiaoqiang^
 ||xiaorongyan.com^
-||xiaoshuo.km.com^
 ||xiaoshuo.kp53.cn^
 ||xiaoshuo.zhandao.net^
 ||xiaoyang.mobi^
@@ -30429,96 +30344,6 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 123pan.com##.slick-slider, .slick-initialized
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
-adblock-tester.com##.includeWrapper, .svelte-700pcr
-baidu.com###searchTag
-best.pconline.com.cn###JnoLoginFixedBottom
-blog.51cto.com##div.right-fixadv:nth-child(6)
-blog.csdn.net##div.passport-login-container:last-child
-centering.raidrive.com###div-gpt-ad-1648048258625-0
-centering.raidrive.com###div-gpt-ad-1666694094447-0
-csdn.net##div:nth-child(10) > div.csdn-side-toolbar > div.csdn-common-logo-advert:first-child
-dmzj.com##div[class*="float_code"]
-edu.iask.sina.com.cn##.ad-screen
-hanyu.baidu.com###J_CishuBtn > img
-hanyu.baidu.com###main > div.app-qrcode:first-child
-haokan.baidu.com##.tieba-pause-ad-container
-haokan.baidu.com##div.landrightbanner
-haokan.baidu.com##div.player-pause-code
-haokan.baidu.com##div.videolist-item-topbanner
-huya.com###J_adBnM > img:last-child
-huya.com###J_liveListHeader > div.liveList-BusinessGame:last-child
-huya.com###matchComponent4
-huya.com###public-screen-ab
-huya.com###sidebarBanner
-huya.com##.Ad--1M4tksnOmUetminmFTLCfE
-huya.com##.end-ab-banner
-huya.com##.main-ab-close-mode
-huya.com##.new-reward-ab-wrap
-huya.com##.small-handle-tip
-iqiyi.com##.header__ele
-juejin.cn###juejin > div.view-container.container:first-child > main.container.main-container.with-view-nav:last-child > div.view.timeline-index-view > div.timeline-container:last-child > div.timeline-content > aside.index-aside.aside.sticky:last-child > div.sidebar-block.sticky-block:nth-child(5)
-juejin.cn###juejin > div.view-container.container:first-child > main.container.main-container.with-view-nav:last-child > div.view.timeline-index-view > div.timeline-container:last-child > div.timeline-content > aside.index-aside.aside:last-child > div.sidebar-block.banner-block:nth-child(2)
-juejin.cn###juejin > div.view-container.container:first-child > main.container.main-container.with-view-nav:last-child > div.view.timeline-index-view > div.timeline-container:last-child > div.timeline-content > aside.index-aside.aside:last-child > div.sidebar-block.banner-block:nth-child(3)
-juejin.cn##.extension
-m.jd.com###appdlCon > div.modal
-marriedgames.com.br###custom_html-2
-marriedgames.com.br##div.sp-backdrop-info.show-prompt:first-child
-medium.com##.m, .abb, .add, .ade
-msn.cn###main > div.normalsection:nth-child(5) > div.full-width > div.sectioncontent > div.recommended-sites-module:first-child > div > div.sponsored-label:last-child
-msn.cn###main > div.stripecontainer:nth-child(22)
-msn.cn###onetrust-consent-sdk
-msn.cn###rightRailContentContainer > div > div.modernRightRail_modulesContainer-DS-EntryPoint1-1 > fluent-design-system-provider:nth-child(2)
-ofiii.com##.jsx-126687236
-ofiii.com##div.nonlinear_image_container.ad_impression
-pan.baidu.com##.nd-operate-guidance
-pan.baidu.com##div.nd-main-layout:first-child > div.nd-operate-guidance:last-child
-people.com.cn##div.main:nth-child(2) > div.layout.ggtl.cf:nth-child(9)
-plugin.speedtest.cn##.active-ad
-plugin.speedtest.cn##.pub-ad, .ad-index-top-left
-scoregg.com##.float-modal
-sina.com.cn###SFA_NV_POP
-sina.com.cn##div.wrap:nth-child(18) > div:nth-child(25)
-sina.com.cn##div[class*="stock-finapp-box"]
-smartapps.cn##swan-nest-banner-ad[class*="ad-expose"]
-smartapps.cn##swan-template[data-origin-name*="adRecommendation"]
-smartapps.cn##swan-view[class*="sw-26__bdad-wrap"]
-so.com###card_container > div.hot-news-card.clearfix:last-child
-so.com###side
-tools.bugscaner.com###div_qrcode_container
-tuniu.com##.web_envelope_mod, .tuniu-assist-hide, .show
-v.qq.com##div[class*="mod_row_box mod_row_box_special"]
-vacations.ctrip.com##.side_function
-wen.baidu.com##aside[class*="grid-r qb-side"]
-wiki.mbalib.com###ad_wikiLeft1
-wiki.mbalib.com##.app-warp
-wkings.blog##.di7ubns5b2nz
-www.9game.cn##.entry.qak_popup
-www.baidu.com##div[class*="cr-offset"]
-www.baidu.com##div[class*="result c-container new-pmd"]
-www.baidu.com##div[class*="result-op c-container xpath-log new-pmd"]
-www.baidu.com##div[class*="result-op c-container"]
-www.baidu.com##div[class*="result-op xpath-log new-pmd"]
-www.baidu.com##div[class*="s-isindex-wrap s-hotsearch-wrapper"]
-www.itdog.cn##.lantern_left
-www.itdog.cn##.lantern_right
-www.itdog.cn##.mb-3
-www.itdog.cn##.pointer
-www.itdog.cn##.rounded-lg
-www.mysteel.com##div[class*="ad-flash-abort"]
-www.mysteel.com##div[class*="ad05"]
-www.mysteel.com##div[class*="ad14"]
-www.mysteel.com##div[class*="adtop"]
-www.mysteel.com##div[class*="adtop2 swiper-container"]
-www.mysteel.com##div[class*="tmLink ADload"]
-www.mysteel.com##div[class*="topAD"]
-www.nite07.com##.hope-c-PJLV-ikSuVsl-css
-www.qinav.com##div[class="b300"]
-www.qinav.com##div[id="qinav_b*"]
-zb.zhaobiao.cn##.enrol_ad
-zb.zhaobiao.cn##div.box:nth-child(5) > div.advertisement.box:nth-child(2)
-zhidao.baidu.com###qb-side
-zhidao.baidu.com##button[class*="task-list-button"]
-zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads.raidrive.com##a
 ||ads.raidrive.com##img
 ! ---------- 例外规则 (exceptions, 置于末尾优先覆盖) ----------
