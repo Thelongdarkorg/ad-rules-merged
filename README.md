@@ -10,19 +10,19 @@
 
 ### AdGuard / Adblock Plus / uBlock Origin（`merged.txt`）
 
-**GitHub raw（国际线路）：**
+**GitHub raw（官方直链，部分国内网络可能无法访问）：**
 
 ```
 https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ```
 
-**jsdelivr CDN（国内/阿里 ECS 等网络推荐，可达性更好）：**
+**ghproxy 实时代理（国内推荐，可达性更好、无 CDN 缓存延迟）：**
 
 ```
-https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/merged.txt
+https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ```
 
-> 两个地址内容完全一致；如果 `raw.githubusercontent.com` 出现 `connection reset by peer` 或拉取失败，请换用 jsdelivr 地址。
+> 两个地址内容完全一致；`raw.githubusercontent.com` 在国内部分网络会被重置（`connection reset by peer`），请优先使用 ghproxy 地址。ghproxy 为第三方实时代理，直接转发 GitHub 最新版，无 12 小时 CDN 缓存，刷新更及时。
 
 建议刷新间隔：**12 小时**。
 
