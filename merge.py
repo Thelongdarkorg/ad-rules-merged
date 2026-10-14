@@ -29,6 +29,8 @@ SOURCES = [
      "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"),
     ("qq5460168/666/rules",
      "https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt"),
+    ("rssvcn/qy-Ads-Rule",
+     "https://raw.githubusercontent.com/rssvcn/qy-Ads-Rule/main/black.txt"),
 ]
 
 OUTPUT = "merged.txt"
