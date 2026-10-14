@@ -5,9 +5,9 @@
 ! 反馈加QQ:1584574988
 ! Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
-! 订阅线路2国内连接稳（可达性更好）：https://cdn.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/merged.txt
+! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-10-14 10:00:32 UTC+8
+! Generated: 2026-10-14 10:13:03 UTC+8
 ! Total rules: 33454
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
