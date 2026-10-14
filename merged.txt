@@ -5,7 +5,7 @@
 ! 反馈加QQ:1584574988
 ! Homepage: https://github.com/Thelongdarkorg/ad-rules-merged
 ! Expires: 12 hours
-! Generated: 2026-10-14 09:44:55 UTC+8
+! Generated: 2026-10-14 09:45:28 UTC+8
 ! Total rules: 33454
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
