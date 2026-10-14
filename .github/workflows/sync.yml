@@ -41,7 +41,3 @@ jobs:
             git commit -m "chore: auto-sync merged rules $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
-
-      - name: Purge jsdelivr CDN cache for merged.txt
-        # 清除 jsdelivr 的边缘缓存，使订阅者立即拿到最新版（无需等最长12h CDN过期）
-        run: curl -fsSL "https://purge.jsdelivr.net/gh/Thelongdarkorg/ad-rules-merged@main/merged.txt" || echo "purge 请求失败，可忽略（不影响规则生成）"
