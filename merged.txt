@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-10-14 10:27:05 UTC+8
-! Total rules: 33454
+! Generated: 2026-10-14 10:39:09 UTC+8
+! Total rules: 33523
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||amusingarmorycomment.com^
@@ -29480,6 +29480,75 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||zzzzz4.52896368.com^
 ‖*.chat.bilibili.com
 ﻿#版本：2.9
+||*.ads.heytapmobi.com^
+||*.applovin.com^
+||*.juicyads.me^
+||*.voiceads.cn^
+||*/snscosdownload/*/reserved/*$app=com.tencent.mm
+||*adintl.cn^
+||*googleads*^
+||*googleadsserving.cn^
+||*unityads.unity3d.com^
+||activity.inads.cn^
+||ad-*.kwaidc.com^
+||ad-*.alibabadns.com^
+||ad-*.alimama.com^
+||ad.wx.com:12638^
+||ads*.papegames.com^
+||ads-*.xhscdn.com^
+||ads-*.hihonorcloud.com^
+||ads-*.vivo.com.cn^
+||ads3-*.zijieapi.com^
+||ads5-*.zijieapi.com^
+||api-access.pangolin-sdk-toutiao-*.com^
+||apps.iad.apple.com^
+||cdn.inads.cn^
+||cn.gdt.qq.com^
+||data.flurry.com^
+||display-apps-ui-soak.iad.apple.com^
+||ad-monitor.huya.com^
+||fmiphone-apple.com^
+||huaweicdncmnet.inter.iqiyi.com^
+||iris.iad.apple.com^
+||itjcqlp.icu^
+||lalabaos1026.top^
+||landing.gdtimg.com^
+||luggagetumbledapple.com^
+||p2-lm.adukwai.com^
+||pagead*.googleadservices-cn.com^
+||pagead*.googlesyndication-cn.com^
+||pagead*.googlesyndication.com^
+||pinner-imgserver.byted.org^
+||public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com^
+||sc.laoqj.top^
+||sdk-api.beizi.biz^
+||ads-jssdk.vivo.com.cn^
+||stg-cmws.iad.apple.com^
+||v.smtcdns.com^
+||vdn5-1.vzuu.com^
+||vdn5.vzuu.com^
+||vdn6.vzuu.com^
+||view-apple.com^
+||www.fmiphone-apple.com^
+||www.view-apple.com^
+||xiaoshuo.km.com^
+||*ad.wtzw.com^
+||*pangolin*toutiao*.com^
+||amap-aos-info-nogw.amap.com^
+||whjzjx.cn^
+||ads.log.kafka.top^
+||ad.wx.com^
+||sb.adtidy.com^
+||ad.track.66mobi.com^
+||oneseeker.top^
+||novel.pangolin-sdk-toutiao.com^
+||dsp-api-cn.metricslinks.com^
+||mores.anythinktech.com^
+||mgw.mpaas.cn-hangzhou.aliyuncs.com^
+||cloudauth-device-dualstack.cn-shanghai.aliyuncs.com^
+||g.alicdn.com^
+||wallpaper-1258344696.file.myqcloud.com^
+||nadvideo.baidu.com^
 ! ---------- 元素隐藏 (cosmetic) ----------
 cloud.189.cn#@#.ad-container
 hax.co.id#@#.ad-box
