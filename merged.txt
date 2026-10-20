@@ -7,7 +7,7 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-10-19 15:54:39 UTC+8
+! Generated: 2026-10-20 15:43:55 UTC+8
 ! Total rules: 33523
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
