@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-10-22 15:43:48 UTC+8
-! Total rules: 33524
+! Generated: 2026-10-23 15:41:26 UTC+8
+! Total rules: 33531
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||nextacdn.top^
@@ -5022,6 +5022,8 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||aaid.umeng.com^
 ||ad-api.4pyun.com^
 ||ad-cdn.qingting.fm^
+||ad-cmp.hismarttv.com^
+||ad-download.hismarttv.com^
 ||ad-files.4pyun.com^
 ||ad-scope.com^
 ||ad-scope.com.cn^
@@ -5246,6 +5248,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||bingads.microsoft.com^
 ||bj-td-menta-01-callback.advlion.com^
 ||bj.ad.track.66mobi.com^
+||boost-cmp.hismarttv.com^
 ||bootpreload.uve.weibo.com^
 ||brandadsstatic.vivo.com.cn^
 ||browser.events.data.msn.cn^
@@ -5331,6 +5334,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||fxgate.baidu.com^
 ||g-adnet.hiaiabc.com^
 ||g-staic.ganjingworld.com^
+||g.cn.miaozhen.com^
 ||g.dtv.cn.miaozhen.com^
 ||g.fancyapi.com^
 ||g2.ganjing.world^
@@ -5393,6 +5397,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||img-x.jd.com^
 ||img.adnyg.com.w.kunlungr.com^
 ||img2.360buyimg.com^
+||imp-cmp.hismarttv.com^
 ||impression-asia.chinaliftoff.io^
 ||impression-asia.liftoff.io^
 ||impression.appsflyer.com^
@@ -5434,6 +5439,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||lives.l.ott.video.qq.com^
 ||livewebbs2pcdn.msstatic.com^
 ||lm10111.jtrincc.cn^
+||loading-cmp.hismarttv.com^
 ||log-api-mn.huxiu.com^
 ||log-api.huxiu.com^
 ||log-report.com^
@@ -5504,6 +5510,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ms4.applovin.com^
 ||ms4.applvn.com^
 ||msdk.voiceads.cn^
+||msg-cmp.hismarttv.com^
 ||mssdk.zijieapi.com^
 ||mtj.baidu.com^
 ||nadvideo2.baidu.com^
@@ -5541,6 +5548,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||p5-be-pack-sign.pglstatp-toutiao.com^
 ||p6-be-pack-sign.pglstatp-toutiao.com^
 ||p66-ad.adkwai.com^
+||paster-cmp.hismarttv.com^
 ||pay.sboot.cn^
 ||pcdn.xmcdn.com^
 ||pcdn.yximgs.com^
@@ -5564,6 +5572,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||qcwx.medproad.com^
 ||qmlog.baertt.com^
 ||qn-cdnfile1pcdn.msstatic.com^
+||recmd-cmp.hismarttv.com^
 ||recommend-drcn.hms.dbankcloud.cn^
 ||report.dxunion.cn^
 ||report.tencentmusic.com^
@@ -5574,6 +5583,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||res2.hubcloud.com.cn^
 ||res3.hubcloud.com.cn^
 ||resolve.umeng.com^
+||resource-cmp.hismarttv.com^
 ||review.gdtimg.com^
 ||rlog.popin.cc^
 ||rms-drcn.platform.dbankcloud.cn^
@@ -5742,6 +5752,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||v1-ad.video.yximgs.com^
 ||v2-ad.video.yximgs.com^
 ||v2-api-channel-launcher.hismarttv.com^
+||v2.reachmax.cn^
 ||v2mi.gdt.qq.com^
 ||v3-ad.video.yximgs.com^
 ||v3.gdt.qq.com^
@@ -17862,11 +17873,9 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||ad-cdn.qtfm.cn^
 ||ad-channel.diwodiwo.xyz^
 ||ad-cloud.jp^
-||ad-cmp.hismarttv.com^
 ||ad-cn.jovcloud.com^
 ||ad-delivery.net^
 ||ad-display.diwodiwo.xyz^
-||ad-download.hismarttv.com^
 ||ad-drs-ipv6.52qumao.com^
 ||ad-drs.52qumao.com
 ||ad-drs.52qumao.com^
@@ -21984,7 +21993,6 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||g.bitauto.com^
 ||g.brothersoft.com^
 ||g.chuiyao.com^
-||g.cn.miaozhen.com^
 ||g.d.yoyi.tv^
 ||g.daman.cc^
 ||g.doubleclick.net^
@@ -28203,7 +28211,6 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||v2.jiathis.com^
 ||v2.log.hunantv.com^
 ||v2.oskwai.com^
-||v2.reachmax.cn^
 ||v2.yunxish.com^
 ||v20.events.data.microsoft.com^
 ||v26-reading.qznovelvod.com^
