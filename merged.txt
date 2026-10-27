@@ -7,10 +7,11 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-10-26 15:54:31 UTC+8
-! Total rules: 33533
+! Generated: 2026-10-27 16:00:48 UTC+8
+! Total rules: 33535
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
+||sdk.51.la^
 ||nextacdn.top^
 ||amusingarmorycomment.com^
 ||arbattadr.in^
@@ -4985,6 +4986,8 @@ _300x250.js
 x.com/*/videoads/
 /xxgg/pf*.js
 /xxgg/gd*.js
+/poster/zj-gd.js
+/poster/zj-mhz-ding.js
 ||addthis.com/live/
 ||xn--*.xn--fiqs8s:
 /template/piankuwap/js/afoot.js
@@ -29815,6 +29818,7 @@ iplark.com##body > #capture-area ~ div[class]:empty
 118pan.com##.card.mt-2:nth-child(2)
 m.autohome.com.cn##section > ol
 xxooo.cf###overlay
+play.google.com#@#a[href^="intent://"]
 www.3ppp.net##DIV.bottom_fixed
 apkpure.net,apkpure.com##DIV.js-ad-slot
 dongmanhuayuan.myheartsite.com##.card-body
@@ -30423,8 +30427,6 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 123pan.com##.adv-container-pc
 123pan.com##.banner_all_wrap
 123pan.com##.slick-slider, .slick-initialized
-3dmgame.com##.alertad
-3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
 ||ads.raidrive.com##a
 ||ads.raidrive.com##img
 ! ---------- 例外规则 (exceptions, 置于末尾优先覆盖) ----------
