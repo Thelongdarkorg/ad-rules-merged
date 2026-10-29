@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-10-28 16:42:45 UTC+8
-! Total rules: 33535
+! Generated: 2026-10-29 16:38:18 UTC+8
+! Total rules: 33545
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||sdk.51.la^
@@ -30774,7 +30774,9 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||app.home.360.cn^
 @@||app.huabao.360.cn^
 @@||app.market.xiaomi.com^
+@@||app.mi.com^
 @@||app.toutiao.com^
+@@||app.xiaomi.com^
 @@||app.zhuanzhuan.com^
 @@||appcenter.ms^
 @@||appcfg.v.qq.com^
@@ -30801,6 +30803,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||aps.amap.com^
 @@||aq.qq.com^
 @@||archive.biliimg.com^
+@@||archive.stardock.com^
 @@||arenascan.com^
 @@||article.zlink.toutiao.com^
 @@||as.weixin.qq.com^
@@ -31126,6 +31129,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||coolapk-oss-image.oss-cn-hangzhou.aliyuncs.com^
 @@||coop.voicecloud.cn^
+@@||copilot.tencent.com^
 @@||core.tantanapp.com^
 @@||cos.ap-bangkok.myqcloud.com^
 @@||cos.ap-beijing-1.myqcloud.com^
@@ -31429,6 +31433,8 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||fonts.gstatic.com^
 @@||forum.trae.cn^
 @@||forums.oneplus.com^
+@@||forums.stardock.com^
+@@||forums.stardock.net^
 @@||foundation.youdao.com^
 @@||fourhoi.com^
 @@||fourier-videoclip-eu.allawnos.com^
@@ -31642,6 +31648,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||id.realme.com^
 @@||id1.cloud.huawei.com^
 @@||id6.me^
+@@||identity.stardock.com^
 @@||idmb.register.xmpush.global.xiaomi.com^
 @@||idmsa.apple.com^
 @@||ietheivaicai.com^
@@ -33080,6 +33087,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||up.cm.ksmobile.com^
 @@||upage.imtt.qq.com^
 @@||update.360safe.com^
+@@||update.appstore.vivo.com.cn^
 @@||update.hicloud.com^
 @@||update.huorong.cn^
 @@||update.vivo.com^
@@ -33425,6 +33433,8 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||www.siyuan-note.club^
 @@||www.so.com^
 @@||www.spaceship.com^
+@@||www.stardock.com^
+@@||www.stardock.net^
 @@||www.sygjx.com^
 @@||www.taobao.com^
 @@||www.taptap.cn^
