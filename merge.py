@@ -55,6 +55,9 @@ WIDE_EXCEPTION_DENYLIST = {
 # ---------------------------------------------------------------------------
 LOCAL_WHITELIST = [
     "metrics.mzstatic.com",   # Apple 埋点上报，被广告规则误拦后 App Store 异常
+    "appldnld.apple.com",     # App 下载落地域，被拦后 App Store 报「无法安装」
+    "swdownload.apple.com",   # 软件包下载
+    "swcdn.apple.com",        # 软件下载 CDN
 ]
 
 _HOSTS_RE = re.compile(r"^(?:0\.0\.0\.0|127\.0\.0\.1|::1?)\s+([a-z0-9._-]+)$")
