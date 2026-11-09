@@ -5,6 +5,7 @@
 
 - 拉取多个上游规则文本
 - 按类别分类：拦截规则(||...) / 元素隐藏(##) / 例外规则(@@)
+- 应用本地白名单 LOCAL_WHITELIST：剔除上游误拦的域名，并在例外区块追加放行
 - 全局去重（忽略大小写，保留首次出现的原始写法）
 - 输出单一 merged.txt，可直接作为订阅地址使用
 
@@ -15,6 +16,7 @@
 
 import sys
 import os
+import re
 import datetime
 import subprocess
 import urllib.request
@@ -42,6 +44,54 @@ USER_AGENT = "Mozilla/5.0 (compatible; ad-rule-merge/1.0)"
 WIDE_EXCEPTION_DENYLIST = {
     "@@||360.cn^",
 }
+
+# ---------------------------------------------------------------------------
+# 本地白名单：上游误拦了自己要用的域名时，把域名写在这里。
+# 脚本会自动做两件事，双保险：
+#   1) 剔除上游中「精确指向该域名」的拦截规则（hosts 形式与 ||域名^ 形式都识别）
+#   2) 在例外规则区块末尾追加 @@||域名^
+# 只写域名，不要带 @@ 或 || 前缀。父域规则（如 ||mzstatic.com^）不会被剔除，
+# 但例外规则优先级更高，仍然生效。
+# ---------------------------------------------------------------------------
+LOCAL_WHITELIST = [
+    "metrics.mzstatic.com",   # Apple 埋点上报，被广告规则误拦后 App Store 异常
+]
+
+_HOSTS_RE = re.compile(r"^(?:0\.0\.0\.0|127\.0\.0\.1|::1?)\s+([a-z0-9._-]+)$")
+_BLOCK_DOMAIN_RE = re.compile(r"^\|\|([a-z0-9._-]+)\^?(?:\$.*)?$")
+_PLAIN_DOMAIN_RE = re.compile(r"^[a-z0-9._-]+\.[a-z]{2,}$")
+
+
+def blocked_domain_of(rule: str):
+    """尽力识别一条拦截规则针对的域名；识别不了返回 None。
+
+    只识别「精确指向单个域名」的规则，绝不碰父域规则和通配规则，
+    避免为了放行一个子域误删整片拦截能力。
+    """
+    s = rule.strip().lower()
+    if not s or s.startswith("!") or s.startswith("@@"):
+        return None
+    if "##" in s or "#@#" in s or "#?#" in s:
+        return None
+    m = _HOSTS_RE.match(s)
+    if m:
+        return m.group(1).rstrip(".")
+    m = _BLOCK_DOMAIN_RE.match(s)
+    if m:
+        return m.group(1).rstrip(".")
+    if _PLAIN_DOMAIN_RE.match(s):
+        return s
+    return None
+
+
+def local_whitelist_domains():
+    """规整本地白名单：去空格、小写、去尾点、去重。"""
+    out = []
+    for d in LOCAL_WHITELIST:
+        d = d.strip().lower().rstrip(".")
+        if d and d not in out:
+            out.append(d)
+    return out
 
 
 def fetch(url: str, timeout: int = 30, retries: int = 4) -> str:
@@ -96,6 +146,10 @@ def main() -> int:
     seen = set()
     per_source = {}
 
+    wl = local_whitelist_domains()
+    wl_set = set(wl)
+    dropped_by_wl = 0
+
     for name, url in SOURCES:
         try:
             text = fetch(url)
@@ -116,6 +170,10 @@ def main() -> int:
             cat = categorize(line)
             stripped = line.strip()
             if cat == "block":
+                # 本地白名单：上游误拦的域名，直接剔除对应拦截规则
+                if blocked_domain_of(stripped) in wl_set:
+                    dropped_by_wl += 1
+                    continue
                 blocks.append(stripped)
             elif cat == "cosmetic":
                 cosmetics.append(stripped)
@@ -126,6 +184,17 @@ def main() -> int:
                 exceptions.append(stripped)
             added += 1
         per_source[name] = added
+
+    # 本地白名单例外规则，追加到例外区块末尾（去重后）
+    existing = {e.strip().lower() for e in exceptions}
+    wl_added = 0
+    for d in wl:
+        rule = f"@@||{d}^"
+        if rule.lower() in existing:
+            continue
+        exceptions.append(rule)
+        existing.add(rule.lower())
+        wl_added += 1
 
     total = len(blocks) + len(cosmetics) + len(exceptions)
     # 北京时间 UTC+8
@@ -170,6 +239,9 @@ def main() -> int:
     print(f"元素隐藏 : {len(cosmetics)}")
     print(f"例外规则 : {len(exceptions)}")
     print(f"合并总计 : {total}")
+    print(f"本地白名单 : {len(wl)} 个域名，剔除拦截规则 {dropped_by_wl} 条，新增例外 {wl_added} 条")
+    for d in wl:
+        print(f"  放行 {d}")
     for n, c in per_source.items():
         print(f"  源 {n}: {c if c >= 0 else 'FETCH FAILED'}")
 
