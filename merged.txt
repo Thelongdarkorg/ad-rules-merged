@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-11-08 17:10:28 UTC+8
-! Total rules: 33539
+! Generated: 2026-11-09 08:26:52 UTC+8
+! Total rules: 33538
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||sdk.51.la^
@@ -2565,7 +2565,6 @@
 ||metrics.apple.com^
 ||metrics.data.hicloud.com^
 ||metrics.icloud.com^
-||metrics.mzstatic.com^
 ||metrics2.data.hicloud.com^
 ||metrika.yandex.ru^
 ||mfe.paqpq.com^
@@ -16499,7 +16498,6 @@ www.itdog.cn#%#window.alert=function(str){return}
 0.0.0.0 mazu.m.qq.com
 0.0.0.0 metrics.apple.com
 0.0.0.0 metrics.icloud.com
-0.0.0.0 metrics.mzstatic.com
 0.0.0.0 mine.baidu.com
 0.0.0.0 mnqlog.ldmnq.com
 0.0.0.0 mobilelog.upqzfile.com
@@ -33552,3 +33550,4 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||dwz.cn^
 @@||c.fa.jd.com^
 @@||na61-na62.wagbridge.advertisement.tanx.com^
+@@||metrics.mzstatic.com^
