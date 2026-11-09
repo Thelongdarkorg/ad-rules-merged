@@ -7,7 +7,7 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-11-09 08:26:52 UTC+8
+! Generated: 2026-11-09 09:11:02 UTC+8
 ! Total rules: 33538
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
@@ -5865,10 +5865,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||mesu.apple.com^
 ||swscan.apple.com^
 ||swquery.apple.com^
-||swdownload.apple.com^
-||swcdn.apple.com^
 ||updates-http.cdn-apple.com^
-||appldnld.apple.com^
 ||xp.apple.com^
 ||yyapp-httpdns.gslb.yy.com^
 ||union-httpdns.gslb.yy.com^
@@ -33551,3 +33548,6 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||c.fa.jd.com^
 @@||na61-na62.wagbridge.advertisement.tanx.com^
 @@||metrics.mzstatic.com^
+@@||appldnld.apple.com^
+@@||swdownload.apple.com^
+@@||swcdn.apple.com^
