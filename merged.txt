@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-11-09 17:56:10 UTC+8
-! Total rules: 33538
+! Generated: 2026-11-10 18:00:21 UTC+8
+! Total rules: 33543
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||sdk.51.la^
@@ -31517,6 +31517,8 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||pull-m1.wxlivecdn.com^
 @@||push.chsi.com.cn^
 @@||puui.qpic.cn^
+@@||pvp.icreate.qq.com^
+@@||pvp.qq.com^
 @@||qcaptcha.so.com^
 @@||qcloudimg.tencent-cloud.cn^
 @@||qdfepccdn.qidian.com^
@@ -31870,6 +31872,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||wk.idey.cn^
 @@||wl.jd.com^
 @@||world.qpic.cn^
+@@||world.qq.com^
 @@||wpvip.duba.net^
 @@||wq.360buyimg.com^
 @@||write.qq.com^
@@ -32040,6 +32043,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||wx4.sinaimg.cn^
 @@||wxaurl.cn^
 @@||wxmini-api.uyouqu.com^
+@@||wxq.qq.com^
 @@||wxsnsdy.wxs.qq.com^
 @@||x.kuwo.cn^
 @@||x0.ifengimg.com^
@@ -32055,6 +32059,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||yande.re^
 @@||yeah.163.com^
 @@||yep.com^
+@@||yingdi.qq.com^
 @@||ym.163.com^
 @@||youdata.163.com^
 @@||young.duba.net^
