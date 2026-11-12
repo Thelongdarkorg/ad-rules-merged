@@ -7,10 +7,12 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-11-11 17:34:54 UTC+8
-! Total rules: 33543
+! Generated: 2026-11-12 17:56:44 UTC+8
+! Total rules: 33546
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
+||f7qh.top^
+||xn--jc2a749bpa.com^
 ||sdk.51.la^
 ||nextacdn.top^
 ||amusingarmorycomment.com^
@@ -30406,6 +30408,7 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
 ##body.__amp.amp-mode-touch IFRAME[frameborder='0'][framespacing='0']
 ##DIV.small-icon-container.is_mb
+##div.module-player-side > .is_mb
 ##.ippure-ads.right-one
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
