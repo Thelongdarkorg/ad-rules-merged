@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-11-12 17:56:44 UTC+8
-! Total rules: 33546
+! Generated: 2026-11-13 17:42:55 UTC+8
+! Total rules: 33551
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||f7qh.top^
@@ -14351,6 +14351,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 127.0.0.1 ir-sdk.dun.163.com
 127.0.0.1 api.jr.mi.com  #小米钱包净化
 127.0.0.1 api.comm.miui.com  #小米日历广告
+/(^|[._\/-])ads?([._\/-]|$)/
 ||*-*-*-lrycfv.vip^
 ||*.*-t0613.vip^
 ||*.01fwzb.com^
@@ -30791,6 +30792,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||ddyunbo.com^
 @@||detail.meizu.com^
 @@||detail.zol.com.cn^
+@@||dev.mi.com^
 @@||dev.miuiflash.com^
 @@||developer.extscreen.com^
 @@||devuploads.com^
@@ -30992,6 +30994,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||hub5idx.v6.shub.sandai.net^
 @@||hub5pn.wap.sandai.net^
 @@||huluxia.com^
+@@||hyperos.developer.xiaomi.com^
 @@||i.dell.com^
 @@||i.gtimg.cn^
 @@||i.imgur.com^
@@ -31043,6 +31046,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||img.qidian.com^
 @@||img.siwazywimg.com^
 @@||img.sogoucdn.com^
+@@||img.ssl.msdk.qq.com^
 @@||img.tapimg.com^
 @@||img.youpin.mi-img.com^
 @@||img01.sogoucdn.com^
@@ -31067,6 +31071,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||inporn.com^
 @@||instant.io^
 @@||intro.limestart.cn^
+@@||iot.mi.com^
 @@||ip*.ahcdn.com^
 @@||ip.900cha.com^
 @@||ip.cn^
@@ -31266,6 +31271,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||message.bilibili.com^
 @@||mgbsdk.matrix.netease.com^
 @@||midas.gtimg.cn^
+@@||mimo.mi.com^
 @@||miniapp.gtimg.cn^
 @@||mip.xiachufang.com^
 @@||mirrors.163.com^
@@ -32831,7 +32837,6 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||v.gdt.qq.com^
 @@||livew.l.qq.com^
 @@||iwx.mail.qq.com^
-@@||img.ssl.msdk.qq.com^
 @@||api.unipay.qq.com^
 @@||cdn.yyb.gtimg.com^
 @@||cms.myapp.com^
