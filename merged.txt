@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-11-18 18:20:05 UTC+8
-! Total rules: 33571
+! Generated: 2026-11-19 18:29:17 UTC+8
+! Total rules: 33588
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||usnorbert.com^
@@ -30415,6 +30415,23 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##a[href*="?channelCode="] > img[src]
 ##img[alt="33直播"]
 ##A[href*='.life/8888'][style='display: inline-block;']
+##.adspop
+##.horizontal-banner
+##.page-nav ~ .addbox[style]
+##a[title="PG电子"]
+##a[title="开元棋牌"]
+##img[alt$="约炮"]
+##[class*="card-ads"]
+##[onclick*="'Ad Click'"]
+##[onclick*="ad_slot"]
+##a[href]:not([target="_blank"]) + a[href][rel*="sponsored"][target="_blank"]
+##a[href][target="_blank"][rel*="sponsored"] > img[alt*="棋牌"]
+##a[href][target="_blank"][rel*="sponsored"] > img[alt^="PG"]
+##a[onclick*="棋牌"]
+##a[onclick*="澳门"]
+##a[onclick*="约炮"]
+##a[rel*="sponsored"][onclick]
+##img[alt^="PG"][alt*="电子"]
 ##.dx-recommend-icons
 ##img[alt="开元电子"]
 ##img[alt*="PG"][alt*="娱乐"]
