@@ -7,8 +7,8 @@
 ! 订阅线路1官方文件直链（部分国内网络可能无法访问）：https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! 订阅线路2国内连接稳（可达性更好）：https://ghproxy.net/https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
 ! Expires: 12 hours
-! Generated: 2026-11-25 19:28:12 UTC+8
-! Total rules: 33588
+! Generated: 2026-11-26 19:04:44 UTC+8
+! Total rules: 33593
 ! ============================================================
 ! ---------- 拦截规则 (blocking) ----------
 ||usnorbert.com^
@@ -5893,8 +5893,6 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||yyapp-httpdns.gslb.yy.com^
 ||union-httpdns.gslb.yy.com^
 ||dns2.q2cdn.com^
-||dns.weixin.qq.com^
-||dns.weixin.qq.com.cn^
 ||httpdns.kg.qq.com^
 ||httpdns.browser.miui.com^
 ||resolver.msg.xiaomi.net^
@@ -6403,6 +6401,7 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||as.yyymvp.com^
 ||aedns.weixin.qq.com^
 ||udns.weixin.qq.com^
+||dns.weixin.qq.com^
 ||oth.eve.qq.com^
 ||access.toggle.qq.com^
 ||3gsoftfile.tc.qq.com^
@@ -7147,7 +7146,11 @@ www.itdog.cn#%#window.alert=function(str){return}
 ||loanlink.cn^
 ||push.jiguang.cn^
 ||tracking.umeng.com^
-||1.huanle739.cc^$important
+||i1.go2yd.com^
+||022022.cc^
+||tb6999.com^
+||256kpdz.com^
+huanle739.cc^$important
 ||3.se2208hu.cc^$important
 ||7600mqsv.njoomsj4.top^$important
 ||kd2bchz.qinall.com^$important
@@ -15461,7 +15464,6 @@ www.itdog.cn#%#window.alert=function(str){return}
 23.215.0.204 steamcdn-a.akamaihd.net
 103.230.123.190 steamcommunity.com
 23.53.35.204 store.akamai.steamstatic.com
-23.222.193.171 store.steampowered.com
 0.0.0.0 stqt.weathercn.com
 0.0.0.0 tapi.apkpure.net
 0.0.0.0 tg.flysleep.cn
@@ -32805,6 +32807,7 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||search.youku.com^
 @@||dl.youku.com^
 @@||download.youku.com^
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^、
 @@||finderpdd.video.qq.com^
 @@||apd-vlive.apdcdn.tc.qq.com^
 @@||apd-ugcvlive.apdcdn.tc.qq.com^
@@ -33061,6 +33064,8 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 @@||douyincdn.com^
 @@||verify.snssdk.com^
 @@||vcs.snssdk.com^
+@@||mum.alibabachengdun.com^
+@@||mum.alibabachengdun.net^
 @@||render.amap.com^
 @@||render-prod-backup-tile.amap.com^
 @@||m5.amap.com^
